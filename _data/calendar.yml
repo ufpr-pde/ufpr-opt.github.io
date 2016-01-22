@@ -1,0 +1,25 @@
+- name: VIII Simpósio de Otimização e Análise Numérica
+  local: Centro politécnico - UFPR
+  data: 2016-02-22
+  duration: 3
+  datasub: 2016-01-01
+  area: "Análise Numérica, Otimização"
+  url: "http://www.mat.ufpr.br/verao/2016/m4_otimiza.html"
+
+- name: XI Brazilian Workshop on Continuous Optimization
+  sigla: BrazOptXI
+  local: "UFAM, Manaus"
+  data: 2016-05-22
+  duration: 6
+  datasub: 2016-02-15
+  area: "Otimização"
+  url: "http://www.impa.br/opencms/en/eventos/store_2016/evento_1602"
+
+- name: 14th EUROPT Workshop on Advances in Continuous Optimization
+  sigla: EUROPT2016
+  local: Warsaw (Poland)
+  data: 2016-07-01
+  duration: 2
+  datasub: 2016-03-15
+  area: "Otimização"
+  url: "http://www.europt2016.ia.pw.edu.pl/"
