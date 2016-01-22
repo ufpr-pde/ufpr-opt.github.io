@@ -7,7 +7,7 @@ permalink: /event-calendar/
 
 {% assign events = site.data.calendar | sort: 'date' %}
 {% for event in events %}
-<div class="event">
+<div class="card">
 <h4>
 {% if event.acro %}
   <strong> {{ event.acro }} </strong> -

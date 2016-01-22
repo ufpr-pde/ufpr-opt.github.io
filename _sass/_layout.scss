@@ -322,10 +322,53 @@ q:after {
   font-weight:bold;
 }
 
-
-.event {
-  border: 1px solid $text-color;
-  border-radius: 5px;
+.card {
+  box-shadow: 1px 1px 5px #999;
+  background-color: #fafafa;
+  border-radius: 2px;
   padding: 5px;
   margin: 20px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+
+  p {
+    font-size: 80%;
+  }
+  .logo {
+    position: absolute;
+    bottom: 0;
+    a {
+      border-bottom-style: none;
+    }
+    height: 32px;
+    img {
+      height: 32px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.info {
+  float: left;
+}
+
+.photo {
+  float: right;
+
+  a {
+    border-bottom-style: none;
+  }
+  img {
+    height: 128px;
+    box-shadow: 1px 1px 1px #111;
+    border-radius: 50%;
+  }
+}
+
+.atributions {
+  img {
+    max-height: 64px;
+    max-width: 128px;
+  }
 }
