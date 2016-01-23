@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Team
-comments: yes
 permalink: /team/
 ---
 

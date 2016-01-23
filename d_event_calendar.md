@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Event Calendar
-comments: yes
 permalink: /event-calendar/
 ---
 
