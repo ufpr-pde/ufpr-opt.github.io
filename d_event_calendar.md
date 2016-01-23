@@ -16,14 +16,14 @@ permalink: /event-calendar/
 at <strong> {{ event.local }} </strong>
 <br>
 {% if event.dateend != event.date %}
-from <strong> {{ event.date | date_to_string }} </strong>
- to <strong> {{ event.dateend | date_to_string }}. </strong>
+from <strong> {{ event.date | date: "%b, %d %Y" }} </strong>
+ to <strong> {{ event.dateend | date: "%b, %d %Y" }}. </strong>
 {% else %}
-on <strong> {{ event.date | date_to_string }}. </strong>
+on <strong> {{ event.date | date: "%b, %d %Y" }}. </strong>
 {% endif %}
 <br>
 Submission ends
-on <strong> {{ event.datesub | date_to_string }}. </strong>
+on <strong> {{ event.datesub | date: "%b, %d %Y" }}. </strong>
 <br>
 More information on the
 <a href="{{ event.url }}">site</a>.
