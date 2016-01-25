@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Event Calendar
-permalink: /event-calendar/
+title: Events
+permalink: /events/
 ---
 
-{% assign events = site.data.calendar | sort: 'date' %}
+{% assign events = site.data.events | sort: 'date' %}
 {% for event in events %}
 <div class="card">
 <h4>

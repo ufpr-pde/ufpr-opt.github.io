@@ -1,0 +1,48 @@
+- name: VIII Simpósio de Otimização e Análise Numérica
+  local: Centro politécnico - UFPR
+  date: 2016-02-22
+  dateend: 2016-02-24
+  datesub: 2016-01-01
+  keywords: "Numerical Analysis, Optimization"
+  url: "http://www.mat.ufpr.br/verao/2016/m4_otimiza.html"
+
+- name: XI Brazilian Workshop on Continuous Optimization
+  acro: BrazOptXI
+  local: "UFAM, Manaus"
+  date: 2016-05-22
+  dateend: 2016-05-27
+  datesub: 2016-02-15
+  keywords: "Optimization"
+  url: "http://www.impa.br/opencms/en/eventos/store_2016/evento_1602"
+
+- name: 14th EUROPT Workshop on Advances in Continuous Optimization
+  acro: EUROPT2016
+  local: Warsaw (Poland)
+  date: 2016-07-01
+  dateend: 2016-07-02
+  datesub: 2016-03-15
+  keywords: "Optimization"
+  url: "http://www.europt2016.ia.pw.edu.pl/"
+
+- name: Fifth International Conference on Continuous Optimization
+  acro: ICCOPT2016
+  local: Tokyo, Japan
+  date: 2016-08-06
+  dateend: 2016-08-11
+  datesub: 2016-04-15
+  keywords: "Optimization"
+  url: "http://www.iccopt2016.tokyo/"
+
+- name: IV Colóquio de Matemática da Região Sul
+  local: Universidade Federal do Rio Grande, RS
+  date: 2016-05-02
+  dateend: 2016-05-06
+  datesub: 2016-03-06
+  url: "http://www.sbm.org.br/coloquio-sul-4/"
+
+- name: 2° Simpósio de Matemática da Região Sul
+  local: Universidade Federal do Rio Grande, RS
+  date: 2016-04-01
+  dateend: 2016-04-03
+  datesub: 2016-01-01
+  url: "http://anpmat.sbm.org.br/simposio-sul-2/"
