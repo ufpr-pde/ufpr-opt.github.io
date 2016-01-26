@@ -342,7 +342,6 @@ q:after {
       color: $brand-color;
     }
   }
-
   h3, h4 {
     font-variant: small-caps;
   }
@@ -357,6 +356,10 @@ q:after {
       height: 32px;
       margin-right: 20px;
     }
+  }
+  .excerpt {
+    padding: 0px 10px;
+    color: $grey-color;
   }
 }
 

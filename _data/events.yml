@@ -1,6 +1,6 @@
 - name: VIII Simpósio de Otimização e Análise Numérica
   key: viiisimposio
-  local: Centro politécnico - UFPR
+  venue: Centro politécnico - UFPR
   date: 2016-02-22
   dateend: 2016-02-24
   datesub: 2016-01-01
@@ -10,7 +10,7 @@
 - name: XI Brazilian Workshop on Continuous Optimization
   acro: BrazOptXI
   key: brazoptxi
-  local: "UFAM, Manaus"
+  venue: "UFAM, Manaus"
   date: 2016-05-22
   dateend: 2016-05-27
   datesub: 2016-02-15
@@ -20,7 +20,7 @@
 - name: 14th EUROPT Workshop on Advances in Continuous Optimization
   acro: EUROPT2016
   key: europt2016
-  local: Warsaw (Poland)
+  venue: Warsaw (Poland)
   date: 2016-07-01
   dateend: 2016-07-02
   datesub: 2016-03-15
@@ -30,7 +30,7 @@
 - name: Fifth International Conference on Continuous Optimization
   acro: ICCOPT2016
   key: iccopt2016
-  local: Tokyo, Japan
+  venue: Tokyo, Japan
   date: 2016-08-06
   dateend: 2016-08-11
   datesub: 2016-04-15
@@ -39,7 +39,7 @@
 
 - name: IV Colóquio de Matemática da Região Sul
   key: ivcoloquio
-  local: Universidade Federal do Rio Grande, RS
+  venue: Universidade Federal do Rio Grande, RS
   date: 2016-05-02
   dateend: 2016-05-06
   datesub: 2016-03-06
@@ -47,7 +47,7 @@
 
 - name: 2° Simpósio de Matemática da Região Sul
   key: 2simposio
-  local: Universidade Federal do Rio Grande, RS
+  venue: Universidade Federal do Rio Grande, RS
   date: 2016-04-01
   dateend: 2016-04-03
   datesub: 2016-01-01

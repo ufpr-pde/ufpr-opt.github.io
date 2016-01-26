@@ -4,6 +4,10 @@ title: Events
 permalink: /events/
 ---
 
+Here is a list of events of interest for the optimization community.
+To submit an event to this list see our
+[guide]({{ site.baseurl }}/2016/01/26/new-events.html).
+
 {% assign events = site.data.events | sort: 'date' %}
 {% for event in events %}
 <div class="card">
@@ -15,7 +19,7 @@ permalink: /events/
 {{ event.name }}
 </a>
 </h4>
-at <strong> {{ event.local }} </strong>
+at <strong> {{ event.venue }} </strong>
 <br>
 {% if event.dateend != event.date %}
 from <strong> {{ event.date | date: "%b, %d %Y" }} </strong>

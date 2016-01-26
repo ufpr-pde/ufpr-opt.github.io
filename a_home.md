@@ -25,7 +25,9 @@ permalink: /
 <p style="position: absolute; right: 1%; top: 0;">
 {{ post.date | date: "%Y, %b %d" }}
 </p>
-<p> {{ post.excerpt }} </p>
+<p class="excerpt"> {{ post.excerpt | strip_html | truncatewords: 50 }}
+... <a href="{{ post.url }}">more</a>
+</p>
 </div>
 {% endfor %}
 
