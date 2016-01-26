@@ -1,20 +1,32 @@
+# Generated automatically. Don't edit manually
+# Last modified: 2016-01-26
 - date: 2016-02-15
   name: Submission deadline of BrazOptXI
+  key: brazoptxi
 - date: 2016-02-22
   name: Start of VIII Simpósio de Otimização e Análise Numérica
+  key: viiisimposio
 - date: 2016-03-06
   name: Submission deadline of IV Colóquio de Matemática da Região Sul
+  key: ivcoloquio
 - date: 2016-03-15
   name: Submission deadline of EUROPT2016
+  key: europt2016
 - date: 2016-04-01
   name: Start of 2° Simpósio de Matemática da Região Sul
+  key: 2simposio
 - date: 2016-04-15
   name: Submission deadline of ICCOPT2016
+  key: iccopt2016
 - date: 2016-05-02
   name: Start of IV Colóquio de Matemática da Região Sul
+  key: ivcoloquio
 - date: 2016-05-22
   name: Start of BrazOptXI
+  key: brazoptxi
 - date: 2016-07-01
   name: Start of EUROPT2016
+  key: europt2016
 - date: 2016-08-06
   name: Start of ICCOPT2016
+  key: iccopt2016

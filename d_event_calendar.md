@@ -7,11 +7,13 @@ permalink: /events/
 {% assign events = site.data.events | sort: 'date' %}
 {% for event in events %}
 <div class="card">
-<h4>
+<h4 id="{{event.key}}">
+<a href="#{{ event.key }}">
 {% if event.acro %}
   <strong> {{ event.acro }} </strong> -
 {% endif %}
 {{ event.name }}
+</a>
 </h4>
 at <strong> {{ event.local }} </strong>
 <br>

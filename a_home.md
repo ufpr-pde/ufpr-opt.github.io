@@ -10,7 +10,9 @@ permalink: /
 {% assign events = site.data.calendar %}
 <ul>
 {% for event in events limit: 5%}
- <li> {{ event.date | date: "%Y, %b %d" }} - {{ event.name }} </li>
+ <li> {{ event.date | date: "%Y, %b %d" }} -
+ <a href="{{ site.baseurl }}/events/#{{ event.key }}">
+ {{ event.name }} </a> </li>
 {% endfor %}
 </ul>
 </div>

@@ -333,6 +333,16 @@ q:after {
   position: relative;
   font-size: 80%;
 
+  a {
+    &, &:visited {
+      border-style: none;
+      color: $brand-top-color;
+    }
+    &:hover {
+      color: $brand-color;
+    }
+  }
+
   h3, h4 {
     font-variant: small-caps;
   }

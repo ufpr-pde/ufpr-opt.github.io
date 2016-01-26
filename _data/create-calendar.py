@@ -15,7 +15,7 @@ for d in ['date', 'datesub']:
                 name = data[i]['acro']
             else:
                 name = data[i]['name']
-            dates.append( (data[i][d], name, d) )
+            dates.append( (data[i][d], name, d, data[i]['key']) )
 
 with open("calendar.yml", "w") as f:
     f.write("# Generated automatically. Don't edit manually\n")
@@ -25,4 +25,5 @@ with open("calendar.yml", "w") as f:
             what = "Start of "
         else:
             what = "Submission deadline of "
-        f.write("- date: {}\n  name: {}\n".format(d[0], what + d[1]))
+        f.write("- date: {}\n  name: {}\n  key: {}\n".format(d[0], what + d[1],
+            d[3]))
