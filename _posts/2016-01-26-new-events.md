@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Submitting New Events
-permalinkg: /new-event/
 ---
 
 Here is a quick guide to submitting new events.
