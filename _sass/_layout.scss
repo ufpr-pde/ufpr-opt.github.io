@@ -331,12 +331,10 @@ q:after {
   display: inline-block;
   width: 100%;
   position: relative;
+  font-size: 80%;
 
   h3, h4 {
     font-variant: small-caps;
-  }
-  p {
-    font-size: 80%;
   }
   .logo {
     position: absolute;
@@ -375,3 +373,9 @@ q:after {
     max-width: 128px;
   }
 }
+
+ul {
+  list-style-type: square;
+  list-style-image: url('/images/dot.png');
+}
+
