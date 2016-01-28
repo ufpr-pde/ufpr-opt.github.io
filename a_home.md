@@ -7,14 +7,19 @@ permalink: /
 ### Next events - See [all events](/events)
 
 <div class="card">
+<div class="content hideContent">
 {% assign events = site.data.calendar %}
 <ul>
-{% for event in events limit: 5%}
+{% for event in events %}
  <li> {{ event.date | date: "%Y, %b %d" }} -
  <a href="{{ site.baseurl }}/events/#{{ event.key }}">
  {{ event.name }} </a> </li>
 {% endfor %}
 </ul>
+</div>
+<div class="show-more">
+  <a href="#">more</a> 
+</div>
 </div>
 
 ### News
@@ -30,4 +35,3 @@ permalink: /
 </p>
 </div>
 {% endfor %}
-

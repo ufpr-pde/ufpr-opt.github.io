@@ -392,3 +392,18 @@ ul {
   list-style-image: url('/images/dot.png');
 }
 
+.hideContent {
+  overflow: hidden;
+  height: 6*$base-line-height;
+}
+
+.showContent {
+  height: auto;
+}
+
+.show-more {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

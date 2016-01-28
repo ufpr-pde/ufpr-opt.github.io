@@ -12,7 +12,8 @@ To submit an event to this list see our
 {% for event in events %}
 <div class="card">
 <h4 id="{{event.key}}">
-<a href="#{{ event.key }}">
+<a href="#{{ event.key }}"></a>
+<a href="{{ event.url }}">
 {% if event.acro %}
   <strong> {{ event.acro }} </strong> -
 {% endif %}
