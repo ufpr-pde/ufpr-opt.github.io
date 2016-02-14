@@ -1,11 +1,11 @@
 # Generated automatically. Don't edit manually
-# Last modified: 2016-01-28
-- date: 2016-02-15
-  name: Submission deadline of BrazOptXI
-  key: brazoptxi
+# Last modified: 2016-02-14
 - date: 2016-02-22
   name: Start of VIII Simpósio de Otimização e Análise Numérica
   key: viiisimposio
+- date: 2016-02-29
+  name: Submission deadline of BrazOptXI
+  key: brazoptxi
 - date: 2016-02-29
   name: Submission deadline of Optimization Days and PROMETHEE Days
   key: optdays
