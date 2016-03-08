@@ -1,12 +1,3 @@
-- name: VIII Simpósio de Otimização e Análise Numérica
-  key: viiisimposio
-  venue: Centro politécnico - UFPR
-  date: 2016-02-22
-  dateend: 2016-02-24
-  datesub: 2016-01-01
-  keywords: "Numerical Analysis, Optimization"
-  url: "http://www.mat.ufpr.br/verao/2016/m4_otimiza.html"
-
 - name: XI Brazilian Workshop on Continuous Optimization
   acro: BrazOptXI
   key: brazoptxi
@@ -85,3 +76,12 @@
   dateend: 2016-05-04
   datesub: 2016-02-29
   url: "https://symposia.gerad.ca/jopt2016/en/home"
+
+- name: The 5th International Congress on Mathematical Software
+  acro: ICMS2016
+  key: icms2016
+  venue: Berlin
+  date: 2016-07-11
+  dateend: 2016-07-14
+  datesub: 2016-03-31
+  url: "http://icms2016.zib.de/"
