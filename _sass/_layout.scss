@@ -323,15 +323,14 @@ q:after {
 }
 
 .card {
-  box-shadow: 1px 1px 5px #999;
   background-color: #fafafa;
-  border-radius: 2px;
-  padding: 5px;
+  border: 1px solid #ddf;
+  padding: 3px 20px;
   margin: 20px;
   display: inline-block;
   width: 100%;
   position: relative;
-  font-size: 80%;
+  font-size: 90%;
 
   a {
     &, &:visited {
@@ -346,16 +345,8 @@ q:after {
     font-variant: small-caps;
   }
   .logo {
-    position: absolute;
-    bottom: 0;
-    a {
-      border-bottom-style: none;
-    }
     height: 32px;
-    img {
-      height: 32px;
-      margin-right: 20px;
-    }
+    margin: 5px;
   }
   .excerpt {
     padding: 0px 10px;
@@ -363,21 +354,12 @@ q:after {
   }
 }
 
-.info {
-  float: left;
-}
-
 .photo {
-  float: right;
-
-  a {
-    border-bottom-style: none;
-  }
   img {
-    height: 128px;
-    box-shadow: 1px 1px 1px #111;
-    border-radius: 50%;
+    max-height: 128px;
+    border: 1px solid #aaa;
   }
+
 }
 
 .atributions {

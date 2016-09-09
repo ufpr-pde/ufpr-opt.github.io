@@ -1,4 +1,5 @@
-- name: Abel Soares Siqueira
+- fullname: Abel Soares Siqueira
+  key: abelsiqueira
   lattes: http://lattes.cnpq.br/2986958029448752
   site: http://people.ufpr.br/~abelsiqueira
   email: abelsiqueira@ufpr.br
@@ -6,38 +7,52 @@
   bio: I'm an applied mathematician with interest in computational mathematics.
   image: abel.jpg
 
-- name: Ademir Ribeiro
+- fullname: Ademir Ribeiro
+  key: ademir.ribeiro
   lattes: http://lattes.cnpq.br/7837749235554104
   site: http://people.ufpr.br/~ademir.ribeiro/
   email: ademir.ribeiro@ufpr.br
 
-- name: Elizabeth Wegner Karas
+- fullname: Alberto Ramos
+  key: albertoramos
+  lattes: http://lattes.cnpq.br/3320145045271106
+  site: https://albertoramos.ufpr.br/~albertoramos
+  email: albertoramos@ufpr.br
+
+- fullname: Elizabeth Wegner Karas
+  key: ewkaras
   lattes: http://lattes.cnpq.br/7137611732526625
   site: http://people.ufpr.br/~ewkaras/
   email: ewkaras@ufpr.br
 
-- name: Geovani Nunes Grapiglia
+- fullname: Geovani Nunes Grapiglia
+  key: geovani
   lattes: http://lattes.cnpq.br/9252887821611226
 
-- name: Lucas Garcia Pedroso
+- fullname: Lucas Garcia Pedroso
+  key: lucaspedroso
   lattes: http://lattes.cnpq.br/0906070603571189
   site: http://people.ufpr.br/~lucaspedroso/
   email: lucaspedroso@ufpr.br
 
-- name: Lucelina Batista dos Santos
+- fullname: Lucelina Batista dos Santos
+  key: lucelina
   lattes: http://lattes.cnpq.br/3485740534127573
   email: lucelina@ufpr.br
 
-- name: Luiz Carlos Matioli
+- fullname: Luiz Carlos Matioli
+  key: matioli
   lattes: http://lattes.cnpq.br/6084324625677114
   site: http://people.ufpr.br/~matioli/
   email: matioli@ufpr.br
 
-- name: Mael Sachine
+- fullname: Mael Sachine
+  key: mael
   lattes: http://lattes.cnpq.br/1340656534735806
   site: http://people.ufpr.br/~mael/
   email: mael@ufpr.br
 
-- name: Yuan Jinyun
+- fullname: Yuan Jinyun
+  key: jin
   lattes: http://lattes.cnpq.br/4604141026440444
   email: jin@ufpr.br
