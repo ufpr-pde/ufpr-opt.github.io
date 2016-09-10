@@ -14,10 +14,13 @@
   text-align:center;
   a{
     &,
-    &:visited
-    &:hover {
+    &:visited {
       color: $brand-top-color; //$grey-color-dark
       border-bottom: 1px dotted;
+      text-decoration: none;
+    }
+    &:hover {
+      color: $hover-color;
       text-decoration: none;
     }
   }
@@ -65,7 +68,6 @@
 
   @include media-query($on-palm) {
     position: relative;
-    background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: center;
@@ -131,11 +133,10 @@
 .site-footer {
   clear: both;
   text-align: center;
-  background-color: #f9f9f9;
   border-top: 1px solid $grey-color-light;
   margin: $spacing-unit 0; 
   padding: $spacing-unit 0;
-  font-size: 14px;
+  font-size: 70%;
 }
 
 
@@ -323,14 +324,13 @@ q:after {
 }
 
 .card {
-  background-color: #fafafa;
-  border: 1px solid #ddf;
+  background-color: $card-color;
+  border: 1px solid $border-color;
   padding: 3px 20px;
   margin: 20px;
   display: inline-block;
   width: 100%;
   position: relative;
-  font-size: 90%;
 
   a {
     &, &:visited {
@@ -356,7 +356,7 @@ q:after {
 
 .photo {
   max-height: 128px;
-  border: 1px solid #aaa;
+  border: 1px solid $border-color;
 }
 
 .atributions {
@@ -366,14 +366,9 @@ q:after {
   }
 }
 
-ul {
-  list-style-type: square;
-  list-style-image: url('/images/dot.png');
-}
-
 .hideContent {
   overflow: hidden;
-  height: 6*$base-line-height;
+  height: 4*$base-line-height;
 }
 
 .showContent {
@@ -400,3 +395,5 @@ ul {
     font-size: 140%;
   }
 }
+
+

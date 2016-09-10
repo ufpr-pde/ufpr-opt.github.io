@@ -13,16 +13,19 @@ $base-line-height: 1.6em;
 
 $spacing-unit:     15px;
 
-$text-color:       #111;
-$background-color: #f9f9f9;
-$brand-color:      #2a7ae2;
-$brand-top-color:  #2583ad;
-$hover-color:      #DD1144;
+$text-color:       #101;
+$container-color:  #fff;
+$brand-color:      #3059ff;
+$brand-top-color:  #3059a2;
+$hover-color:      $brand-color;
+$card-color:       #f6f7fa;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$border-color:     darken($card-color, 10%);
 
+// Do I use?
 $code-backgroud-color: #29281e;
 $code-font-color:  #eee;  
 

@@ -10,7 +10,7 @@ To submit an event to this list see our
 
 {% assign events = site.data.events | sort: 'date' %}
 {% for event in events %}
-<div class="card">
+<div class="card container-fluid">
 <h4 id="{{event.key}}">
 <a href="#{{ event.key }}"></a>
 <a href="{{ event.url }}">

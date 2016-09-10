@@ -19,7 +19,6 @@ body {
   line-height: $base-line-height;
   font-weight: 300;
   color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -53,10 +52,9 @@ ul, ol, dl, figure,
   padding-left: $spacing-unit;
   padding-top:30px;
 
-  background-color:#fff;
+  background-color: $container-color;
   margin-top:20px;
   margin-bottom:30px;
-  box-shadow: 1px 1px 10px #BBB;
 }
 
 /*for media*/
@@ -146,7 +144,7 @@ a {
   }
 
   &:hover {
-    color: #669900; //$hover-color;
+    color: $hover-color;
     text-decoration: underline;
   }
 }

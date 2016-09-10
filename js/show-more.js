@@ -3,7 +3,7 @@ $(".show-more a").on("click", function() {
     var $content = $this.parent().prev("div.content");
     var linkText = $this.text().toUpperCase();    
     
-    if(linkText === "more"){
+    if(linkText === "MORE"){
         linkText = "less";
         $content.switchClass("hideContent", "showContent", 400);
     } else {
