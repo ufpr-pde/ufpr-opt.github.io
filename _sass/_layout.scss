@@ -355,11 +355,8 @@ q:after {
 }
 
 .photo {
-  img {
-    max-height: 128px;
-    border: 1px solid #aaa;
-  }
-
+  max-height: 128px;
+  border: 1px solid #aaa;
 }
 
 .atributions {
@@ -388,4 +385,18 @@ ul {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.team_member .logo {
+  height: 48px;
+}
+
+.team_member .info a{
+  &,
+  &:visited
+  &:hover {
+    color: black;
+    font-variant: small-caps;
+    font-size: 140%;
+  }
 }

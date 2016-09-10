@@ -22,14 +22,14 @@ permalink: /team/
     <a href="mailto:{{ p.email }}"><img class="logo" src="{{ site.baseurl }}/images/mail.png" alt="{{ p.email }}"> </a>
     {% endif %}
 
-    <div class="photo pull-right">
+    <div class="pull-right">
       {% if p.site %}<a href="{{ p.site }}">{% endif %}
         {% if p.image %}
           {% assign img = p.image %}
         {% else %}
           {% assign img = "missing.png" %}
         {% endif %}
-        <img class="img-responsive img-circle" src="{{ site.baseurl }}/images/{{ img }}" alt="{{ p.fullname }}">
+        <img class="photo img-responsive img-circle" src="{{ site.baseurl }}/images/{{ img }}" alt="{{ p.fullname }}">
       {% if p.site %}</a>{% endif %}
       </div>
     </div>

@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="team_member contained-fluid">
+
+  <h1> {{ page.fullname }} </h1>
+
+  <div class="col-md-8">
+    <p>
+    {{ page.bio }}
+    </p>
+
+  <h2> Research Themes </h2>
+  {% for t in page.research %}
+  <ul>
+    <li> {{ t }} </li>
+  </ul>
+  {% endfor %}
+
+  </div> <!-- End of col-md-8 -->
+
+  <div class="col-md-4">
+    <!-- Photo -->
+    <img class="img-responsive" src="{{ site.baseurl }}/images/{{ page.image }}">
+
+    <hr>
+
+    <!-- Info -->
+    <div class="info">
+    <a href="{{ page.lattes }}">
+      <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
+    </a><br>
+    {% if page.site %}
+    <a href="{{ page.site }}">
+      <i class="fa fa-globe fa-2x"></i>
+      Site
+    </a><br>
+    {% endif %}
+    {% if page.github %}
+    <a href="http://github.com/{{ page.github }}">
+      <i class="fa fa-github-square fa-2x"></i>
+      GitHub
+    </a><br>
+    {% endif %}
+    {% if page.email %}
+    <a href="mailto:{{ page.email }}">
+      <i class="fa fa-envelope-square fa-2x"></i>
+      E-mail
+    </a><br>
+    {% endif %}
+    </div>
+  </div> <!-- End of col-md-4 -->
+
+<div>
