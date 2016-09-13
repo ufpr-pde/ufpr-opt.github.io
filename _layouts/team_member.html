@@ -26,32 +26,44 @@ layout: default
   <div class="col-md-4">
     <!-- Photo -->
     <img class="img-thumbnail img-responsive" src="{{ site.baseurl }}/images/{{
-    tm.image }}">
+    tm.key }}.png">
 
     <hr>
 
     <!-- Info -->
-    <div class="info">
+    <div class="team-info-logo text-center">
     <a href="{{ tm.lattes }}">
       <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
-    </a><br>
+    </a>
+    {% if tm.email %}
+    <a href="mailto:{{ tm.email }}">
+      <i class="fa fa-envelope fa-3x"></i>
+    </a>
+    {% endif %}
     {% if tm.site %}
     <a href="{{ tm.site }}">
-      <i class="fa fa-globe fa-2x"></i>
-      Site
-    </a><br>
+      <i class="fa fa-globe fa-3x"></i>
+    </a>
     {% endif %}
     {% if tm.github %}
     <a href="http://github.com/{{ tm.github }}">
-      <i class="fa fa-github-square fa-2x"></i>
-      GitHub
-    </a><br>
+      <i class="fa fa-github fa-3x"></i>
+    </a>
     {% endif %}
-    {% if tm.email %}
-    <a href="mailto:{{ tm.email }}">
-      <i class="fa fa-envelope-square fa-2x"></i>
-      E-mail
-    </a><br>
+    {% if tm.rgate %}
+    <a href="https://www.researchgate.net/profile/{{ tm.rgate }}">
+      <i class="ai ai-researchgate ai-3x"></i>
+    </a>
+    {% endif %}
+    {% if tm.scholar %}
+    <a href="https://scholar.google.com.br/citations?user={{ tm.scholar }}">
+      <i class="ai ai-google-scholar ai-3x"></i>
+    </a>
+    {% endif %}
+    {% if tm.orcid %}
+    <a href="https://scholar.google.com.br/citations?user={{ tm.orcid }}">
+      <i class="ai ai-orcid ai-3x"></i>
+    </a>
     {% endif %}
     </div>
   </div> <!-- End of col-md-4 -->

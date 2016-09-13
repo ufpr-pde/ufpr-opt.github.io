@@ -4,19 +4,14 @@ title: Team
 permalink: /team/
 ---
 
-{% assign team = site.data.team %}
+{% assign team = site.data.team | sort: 'fullname' %}
 {% for p in team %}
 <div class="card container-fluid">
 
   <div class="col-md-2">
   <div class="pull-left">
     {% if p.site %}<a href="{{ p.site }}">{% endif %}
-      {% if p.image %}
-        {% assign img = p.image %}
-      {% else %}
-        {% assign img = "missing.png" %}
-      {% endif %}
-      <img class="photo img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ img }}" alt="{{ p.fullname }}">
+      <img class="photo img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ p.key }}-sm.png" alt="{{ p.fullname }}">
     {% if p.site %}</a>{% endif %}
   </div>
   </div>
@@ -45,7 +40,7 @@ permalink: /team/
     </a>
     {% endif %}
     {% if p.scholar %}
-    <a href="https://scholar.google.com.br/citations?hl=pt-BR&user={{ p.scholar }}">
+    <a href="https://scholar.google.com.br/citations?user={{ p.scholar }}">
       <i class="ai ai-google-scholar ai-3x"></i>
     </a>
     {% endif %}

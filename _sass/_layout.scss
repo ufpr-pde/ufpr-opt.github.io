@@ -351,6 +351,14 @@ q:after {
 }
 
 .team-info-logo {
+  color: black;
+  a {
+    &,
+    &:visited
+    &:hover {
+      color: black;
+    }
+  }
   img {
     vertical-align: top;
     height: 40px;
@@ -397,15 +405,3 @@ q:after {
 .team_member .logo {
   height: 48px;
 }
-
-.team_member .info a{
-  &,
-  &:visited
-  &:hover {
-    color: black;
-    font-variant: small-caps;
-    font-size: 140%;
-  }
-}
-
-
