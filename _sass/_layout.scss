@@ -344,18 +344,24 @@ q:after {
   h3, h4 {
     font-variant: small-caps;
   }
-  .logo {
-    height: 32px;
-    margin: 5px;
-  }
   .excerpt {
     padding: 0px 10px;
     color: $grey-color;
   }
 }
 
+.team-info-logo {
+  img {
+    vertical-align: top;
+    height: 40px;
+    margin: 5px;
+  }
+  i {
+    margin: 5px;
+  }
+}
+
 .photo {
-  max-height: 128px;
   border: 1px solid $border-color;
 }
 
@@ -380,6 +386,12 @@ q:after {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.team_member {
+  background-color: $card-color;
+  border: 1px solid $border-color;
+  padding: 20px 0px;
 }
 
 .team_member .logo {

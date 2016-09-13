@@ -4,56 +4,68 @@
   site: http://people.ufpr.br/~abelsiqueira
   email: abelsiqueira@ufpr.br
   github: abelsiqueira
-  bio: I'm an applied mathematician with interest in computational mathematics.
-  research: ["Computational Optimization", "Continouous Optimization"]
+  rgate: Abel_Siqueira
+  scholar: ur6VxvwAAAAJ
+  orcid: 0000-0003-4451-281X
+  rank: Assistant
+  research: ["Computational Optimization", "Continouous Optimization", "Open Source Software", "Nonlinear Programming", "Large-Scale Optimization"]
   image: abel.jpg
 
 - fullname: Ademir Ribeiro
   key: ademir.ribeiro
+  rank: Associate
   lattes: http://lattes.cnpq.br/7837749235554104
   site: http://people.ufpr.br/~ademir.ribeiro/
   email: ademir.ribeiro@ufpr.br
 
 - fullname: Alberto Ramos
   key: albertoramos
+  rank: Assistant
   lattes: http://lattes.cnpq.br/3320145045271106
   site: https://albertoramos.ufpr.br/~albertoramos
   email: albertoramos@ufpr.br
 
 - fullname: Elizabeth Wegner Karas
   key: ewkaras
+  rank: Associate
   lattes: http://lattes.cnpq.br/7137611732526625
   site: http://people.ufpr.br/~ewkaras/
   email: ewkaras@ufpr.br
 
 - fullname: Geovani Nunes Grapiglia
+  rank: Assistant
   key: geovani
   lattes: http://lattes.cnpq.br/9252887821611226
 
 - fullname: Lucas Garcia Pedroso
   key: lucaspedroso
+  rank: Assistant
   lattes: http://lattes.cnpq.br/0906070603571189
   site: http://people.ufpr.br/~lucaspedroso/
   email: lucaspedroso@ufpr.br
 
 - fullname: Lucelina Batista dos Santos
   key: lucelina
+  rank: Assistant
   lattes: http://lattes.cnpq.br/3485740534127573
   email: lucelina@ufpr.br
 
 - fullname: Luiz Carlos Matioli
   key: matioli
+  rank: Associate
   lattes: http://lattes.cnpq.br/6084324625677114
   site: http://people.ufpr.br/~matioli/
   email: matioli@ufpr.br
 
 - fullname: Mael Sachine
   key: mael
+  rank: Assistant
   lattes: http://lattes.cnpq.br/1340656534735806
   site: http://people.ufpr.br/~mael/
   email: mael@ufpr.br
 
 - fullname: Yuan Jinyun
   key: jin
+  rank: Full
   lattes: http://lattes.cnpq.br/4604141026440444
   email: jin@ufpr.br

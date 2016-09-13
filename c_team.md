@@ -4,35 +4,57 @@ title: Team
 permalink: /team/
 ---
 
-{% assign team = site.data.team | sort: 'date' %}
+{% assign team = site.data.team %}
 {% for p in team %}
 <div class="card container-fluid">
 
-  <div class="info col-md-8">
-  <h3> <a href="{{ site.baseurl }}/team/{{ p.key }}.html"> {{ p.fullname }} </a> </h3>
-  <p> {{ p.bio }} </p>
+  <div class="col-md-2">
+  <div class="pull-left">
+    {% if p.site %}<a href="{{ p.site }}">{% endif %}
+      {% if p.image %}
+        {% assign img = p.image %}
+      {% else %}
+        {% assign img = "missing.png" %}
+      {% endif %}
+      <img class="photo img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ img }}" alt="{{ p.fullname }}">
+    {% if p.site %}</a>{% endif %}
+  </div>
+  </div>
+  <div class="col-md-6">
+  <h4> <a href="{{ site.baseurl }}/team/{{ p.key }}.html"> {{ p.fullname }} </a> </h4>
+  <p> {{ p.rank }} Professor </p>
   </div>
 
-  <div class="col-md-4 text-right">
-    <a href="{{ p.lattes }}"> <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes"> </a>
+  <div class="col-md-4 text-right team-info-logo">
+    <a href="{{ p.lattes }}">
+      <img src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
+    </a>
     {% if p.github %}
-    <a href="http://github.com/{{ p.github }}"><img class="logo" src="{{ site.baseurl }}/images/github.png" alt="GitHub"> </a>
+    <a href="http://github.com/{{ p.github }}">
+      <i class="fa fa-github fa-3x"></i>
+    </a>
     {% endif %}
     {% if p.email %}
-    <a href="mailto:{{ p.email }}"><img class="logo" src="{{ site.baseurl }}/images/mail.png" alt="{{ p.email }}"> </a>
+    <a href="mailto:{{ p.email }}">
+      <i class="fa fa-envelope fa-3x"></i>
+    </a>
     {% endif %}
-
-    <div class="pull-right">
-      {% if p.site %}<a href="{{ p.site }}">{% endif %}
-        {% if p.image %}
-          {% assign img = p.image %}
-        {% else %}
-          {% assign img = "missing.png" %}
-        {% endif %}
-        <img class="photo img-responsive img-circle" src="{{ site.baseurl }}/images/{{ img }}" alt="{{ p.fullname }}">
-      {% if p.site %}</a>{% endif %}
-      </div>
-    </div>
+    {% if p.rgate %}
+    <a href="https://www.researchgate.net/profile/{{ p.rgate }}">
+      <i class="ai ai-researchgate ai-3x"></i>
+    </a>
+    {% endif %}
+    {% if p.scholar %}
+    <a href="https://scholar.google.com.br/citations?hl=pt-BR&user={{ p.scholar }}">
+      <i class="ai ai-google-scholar ai-3x"></i>
+    </a>
+    {% endif %}
+    {% if p.orcid %}
+    <a href="https://orcid.org/{{ p.orcid }}">
+      <i class="ai ai-orcid ai-3x"></i>
+    </a>
+    {% endif %}
+  </div>
   <div style="clear: both;"></div>
 </div>
 {% endfor %}

@@ -2,17 +2,20 @@
 layout: default
 ---
 
-<div class="team_member contained-fluid">
+{% for tm in site.data.team %}
+{% if page.key == tm.key %}
 
-  <h1> {{ page.fullname }} </h1>
+<div class="team_member container-fluid">
+
+  <h1> {{ tm.fullname }} </h1>
 
   <div class="col-md-8">
     <p>
-    {{ page.bio }}
+    {{ content }}
     </p>
 
-  <h2> Research Themes </h2>
-  {% for t in page.research %}
+  <h2> Research Topics </h2>
+  {% for t in tm.research %}
   <ul>
     <li> {{ t }} </li>
   </ul>
@@ -22,29 +25,30 @@ layout: default
 
   <div class="col-md-4">
     <!-- Photo -->
-    <img class="img-responsive" src="{{ site.baseurl }}/images/{{ page.image }}">
+    <img class="img-thumbnail img-responsive" src="{{ site.baseurl }}/images/{{
+    tm.image }}">
 
     <hr>
 
     <!-- Info -->
     <div class="info">
-    <a href="{{ page.lattes }}">
+    <a href="{{ tm.lattes }}">
       <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
     </a><br>
-    {% if page.site %}
-    <a href="{{ page.site }}">
+    {% if tm.site %}
+    <a href="{{ tm.site }}">
       <i class="fa fa-globe fa-2x"></i>
       Site
     </a><br>
     {% endif %}
-    {% if page.github %}
-    <a href="http://github.com/{{ page.github }}">
+    {% if tm.github %}
+    <a href="http://github.com/{{ tm.github }}">
       <i class="fa fa-github-square fa-2x"></i>
       GitHub
     </a><br>
     {% endif %}
-    {% if page.email %}
-    <a href="mailto:{{ page.email }}">
+    {% if tm.email %}
+    <a href="mailto:{{ tm.email }}">
       <i class="fa fa-envelope-square fa-2x"></i>
       E-mail
     </a><br>
@@ -53,3 +57,6 @@ layout: default
   </div> <!-- End of col-md-4 -->
 
 <div>
+
+{% endif %}
+{% endfor %}
