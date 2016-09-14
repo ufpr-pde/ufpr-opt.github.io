@@ -1,87 +1,50 @@
-- name: XI Brazilian Workshop on Continuous Optimization
-  acro: BrazOptXI
-  key: brazoptxi
-  venue: "UFAM, Manaus"
-  date: 2016-05-22
-  dateend: 2016-05-27
-  datesub: 2016-02-29
-  keywords: "Optimization"
-  url: "http://www.impa.br/opencms/en/eventos/store_2016/evento_1602"
+# - name: Event name
+#   acro: acronym of the event
+#   key: unique identifier (lower case/no spaces/no symbols)
+#   venue: Where is it?
+#   date: yyyy-mm-dd Beginning date
+#   dateend: yyyy-mm-dd End date
+#   datesub: yyyy-mm-dd End of submission date
+#   keywords: Some keywords, though I currently don't use this
+#   url: "Complete url of the event"
+- name: SIAM Conference on Optimization
+  acro: SIAM OP17
+  key: siamop17
+  venue: Vancouver, British Columbia, Canada
+  date: 2017-05-22
+  dateend: 2017-05-25
+  datesub: 2016-11-21
+  url: "http://www.siam.org/meetings/op17/"
 
-- name: 14th EUROPT Workshop on Advances in Continuous Optimization
-  acro: EUROPT2016
-  key: europt2016
-  venue: Warsaw (Poland)
-  date: 2016-07-01
-  dateend: 2016-07-02
-  datesub: 2016-03-15
-  keywords: "Optimization"
-  url: "http://www.europt2016.ia.pw.edu.pl/"
+- name: SIAM Annual Meeting
+  acro: SIAM AN17
+  key: siaman17
+  venue: Pittsburgh, PA, USA
+  date: 2017-07-10
+  dateend: 2017-07-14
+  url: "http://www.siam.org/meetings/an17/"
 
-- name: Fifth International Conference on Continuous Optimization
-  acro: ICCOPT2016
-  key: iccopt2016
-  venue: Tokyo, Japan
-  date: 2016-08-06
-  dateend: 2016-08-11
-  datesub: 2016-04-15
-  keywords: "Optimization"
-  url: "http://www.iccopt2016.tokyo/"
+- name: Mathematical Congress of the Americas 2017
+  acro: MCA2017
+  key: mca2017
+  venue: Montréal, Canada
+  date: 2017-07-24
+  dateend: 2017-07-28
+  datesub: 2017-03-31
+  url: "https://mca2017.org/abstract-submission"
 
-- name: IV Colóquio de Matemática da Região Sul
-  key: ivcoloquio
-  venue: Universidade Federal do Rio Grande, RS
-  date: 2016-05-02
-  dateend: 2016-05-06
-  datesub: 2016-03-06
-  url: "http://www.sbm.org.br/coloquio-sul-4/"
+- name: 21st Conference of the International Federation of Operational Research
+    Societies
+  acro: IFORS21
+  key: ifors21
+  venue: Québec City, Canada
+  date: 2017-07-17
+  dateend: 2017-07-21
+  datesub: 2017-02-10
+  url: "http://ifors2017.ca/"
 
-- name: 2° Simpósio de Matemática da Região Sul
-  key: 2simposio
-  venue: Universidade Federal do Rio Grande, RS
-  date: 2016-04-01
-  dateend: 2016-04-03
-  datesub: 2016-01-01
-  url: "http://anpmat.sbm.org.br/simposio-sul-2/"
-
-- name: XIV International Conference on Stochastic Programming
-  acro: ICSP2016
-  key: icsp2016
-  venue: Búzios, RJ
-  date: 2016-06-25
-  dateend: 2016-07-01
-  datesub: 2016-01-15
-  url: "http://icsp2016.sciencesconf.org/"
-
-- name: JuliaCon 2016
-  key: juliacon2016
-  venue: MIT, Cambridge, MA, United Stats
-  date: 2016-06-21
-  dateend: 2016-06-25
-  datesub: 2016-03-18
-  url: "http://juliacon.org/"
-
-- name: Workshop on Nonlinear Optimization Algorithms and Industrial Applications
-  key: wstoronto
-  venue: Fields Institute, Toronto, Canada
-  date: 2016-06-02
-  dateend: 2016-06-04
-  datesub: 2016-03-15
-  url: "http://www.fields.utoronto.ca/programs/scientific/15-16/algorithms/"
-
-- name: Optimization Days and PROMETHEE Days
-  key: optdays
-  venue: HEC Montréal, Canada
-  date: 2016-05-02
-  dateend: 2016-05-04
-  datesub: 2016-02-29
-  url: "https://symposia.gerad.ca/jopt2016/en/home"
-
-- name: The 5th International Congress on Mathematical Software
-  acro: ICMS2016
-  key: icms2016
-  venue: Berlin
-  date: 2016-07-11
-  dateend: 2016-07-14
-  datesub: 2016-03-31
-  url: "http://icms2016.zib.de/"
+- name: EUROPT 2017
+  key: europt2017
+  venue: Montréal, Canada
+  date: 2017-07-12
+  dateend: 2017-07-14
