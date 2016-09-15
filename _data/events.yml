@@ -43,8 +43,34 @@
   datesub: 2017-02-10
   url: "http://ifors2017.ca/"
 
-- name: EUROPT 2017
+- name: 15th EUROPT Workshop on Advances in Continuous Optimization
+  acro: EUROPT 2017
   key: europt2017
   venue: Montréal, Canada
   date: 2017-07-12
   dateend: 2017-07-14
+  datesub: 2017-03-15
+  url: "https://www.gerad.ca/colloques/europt2017/"
+
+- name: Mixed Integer Programming Workshop
+  acro: MIP Workshop 2017
+  key: mipworkshop2017
+  venue: Montréal, Canada
+  date: 2017-06-19
+  dateend: 2017-06-22
+  url: "https://sites.google.com/site/mipworkshop2017/home"
+
+- name: IMA and OR Society Conference on Mathematics of Oeprational Research - Innovating mathematics for new industrial challenges
+  key: imaor
+  venue: Kirmingham, UK
+  date: 2017-04-20
+  dateend: 2017-04-21
+  url: "http://www.ima.org.uk/conferences/conferences_calendar/maths_of_operational_research.html"
+
+- name: Optimization 2017
+  key: opt2017
+  venue: Lisboa, Portugal
+  date: 2017-09-06
+  dateend: 2017-09-08
+  datesub: 2017-05-15
+  url: "http://optimization2017.fc.ul.pt/"
