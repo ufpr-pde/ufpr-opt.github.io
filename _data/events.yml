@@ -60,7 +60,8 @@
   dateend: 2017-06-22
   url: "https://sites.google.com/site/mipworkshop2017/home"
 
-- name: IMA and OR Society Conference on Mathematics of Oeprational Research - Innovating mathematics for new industrial challenges
+- name: IMA and OR Society Conference on Mathematics of Operational Research
+  acro: SCMOR
   key: imaor
   venue: Kirmingham, UK
   date: 2017-04-20
@@ -68,6 +69,7 @@
   url: "http://www.ima.org.uk/conferences/conferences_calendar/maths_of_operational_research.html"
 
 - name: Optimization 2017
+  acro: OPT2017
   key: opt2017
   venue: Lisboa, Portugal
   date: 2017-09-06

@@ -19,14 +19,22 @@ permalink: /
 
 ### Next events - See [details](/events)
 
-<div class="card container-fluid">
-  {% assign events = site.data.calendar %}
+<div class="container-fluid">
+<div class="card col-md-6">
+  {% assign events = site.data.events | sort: 'date' %}
   <ul class="fa-ul">
     {% for event in events %}
     <li><i class="fa-li fa fa-angle-double-right"> </i>{{ event.date | date: "%Y, %b %d" }} -
-    <a href="{{ site.baseurl }}/events/#{{ event.key }}"> {{ event.name }} </a> </li>
+    <a href="{{ site.baseurl }}/events/#{{ event.key }}">
+    {% if event.acro %}
+      <strong>{{ event.acro }}</strong>
+    {% endif %}<br>
+    <small> <em> {{ event.name }} </em> </small> </a> </li>
     {% endfor %}
   </ul>
+</div>
+<div class="card col-md-6">
+</div>
 </div>
 
 ### News
