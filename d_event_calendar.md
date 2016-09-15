@@ -24,18 +24,26 @@ Usual places to look for next events:
 {{ event.name }}
 </a>
 </h4>
-at <strong> {{ event.venue }} </strong>
-<br>
+<p>
+<strong> {{ event.venue }} </strong> <br>
 {% if event.dateend != event.date %}
-from <strong> {{ event.date | date: "%b, %d %Y" }} </strong>
- to <strong> {{ event.dateend | date: "%b, %d %Y" }}. </strong>
+  {% assign SD = event.date | date: "%d" %}
+  {% assign SM = event.date | date: "%b" %}
+  {% assign ED = event.dateend | date: "%d" %}
+  {% assign EM = event.dateend | date: "%b" %}
+  <!-- assuming no event is happening trough the new year's day -->
+  {% assign Y = event.date | date: "%Y" %}
+  {% if SM == EM %}
+  <strong> {{ SM }} {{ SD }}-{{ ED }}, {{ Y }} </strong>
+  {% else %}
+  <strong> {{ SM }} {{ SD }}-{{ EM }} {{ ED }}, {{ Y }} </strong>
+  {% endif %}
 {% else %}
-on <strong> {{ event.date | date: "%b, %d %Y" }}. </strong>
+  <strong> {{ event.date | date: "%b %d, %Y" }}. </strong>
 {% endif %}
-<br>
 {% if event.datesub %}
-Submissions end
-on <strong> {{ event.datesub | date: "%b, %d %Y" }}. </strong>
+<em> Submissions end
+on {{ event.datesub | date: "%b %d, %Y" }}</em>
 <br>
 {% endif %}
 {% if event.url %}
@@ -45,6 +53,6 @@ More information on the
 We don't have a site for this event.
 If you know the site, please submit to us.
 {% endif %}
+</p>
 </div>
-
 {% endfor %}

@@ -328,10 +328,12 @@ q:after {
   border: 1px solid $border-color;
   padding: 3px 20px;
   margin: 20px;
-  display: inline-block;
   width: 100%;
   position: relative;
 
+  li {
+    margin: 10px 0 0px 0;
+  }
   a {
     &, &:visited {
       border-style: none;
