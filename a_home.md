@@ -11,7 +11,11 @@ permalink: /
   <ul class="fa-ul">
     {% for event in events %}
     <li><i class="fa-li fa fa-angle-double-right"> </i>{{ event.date | date: "%Y, %b %d" }} -
+    {% if event.author == "TBA" %}
+    <em>Free Spot</em>
+    {% else %}
     <em>{{ event.author }}</em>: {{ event.title }}
+    {% endif %}
     </li>
     {% endfor %}
   </ul>
