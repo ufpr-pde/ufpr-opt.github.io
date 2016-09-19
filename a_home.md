@@ -7,7 +7,7 @@ permalink: /
 ### Seminars - See [details](/seminars)
 
 <div class="card container-fluid">
-  {% assign events = site.data.seminars %}
+  {% assign events = site.data.seminars | sort: 'date' %}
   <ul class="fa-ul">
     {% for event in events %}
     <li><i class="fa-li fa fa-angle-double-right"> </i>{{ event.date | date: "%Y, %b %d" }} -

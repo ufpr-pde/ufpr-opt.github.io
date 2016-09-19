@@ -19,10 +19,19 @@ Fridays.
     <em> {{ pres.date | date: "%b. %d, %Y" }}: </em> <br>
   </div>
   <div class="col-md-10">
-    <span><strong> {{ pres.title }} </strong></span><br>
-    <span><em> {{ pres.author }} </em></span>
-    <p> {{ pres.abstract }} <br>
+    {% if pres.author == "TBA" %}
+    <span><strong> Free Spot </strong></span>
+    <p> Contact us if you'd like to give a talk </p>
+    {% else %}
+    <span><strong> {{ pres.author }} </strong></span> - 
+    <span> {{ pres.affiliation }} </span><br>
+    <p>
+    <span><em> {{ pres.title }} </em></span><br>
+    {% if pres.abstract %}
+    {{ pres.abstract }} <br>
+    {% endif %}
     </p>
+    {% endif %}
   </div>
 {% endfor %}
 </div>

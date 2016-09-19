@@ -1,9 +1,42 @@
 - author: Abel Soares Siqueira
-  date: 2016-09-09
-  title: Creation of a Site for the Optimization Group
-  abstract: This is a small abstract of the presentation that I would give about in the seminars
+  date: 2016-10-14
+  affiliation: UFPR
+  title: Optimization in the Julia Language
+  abstract: This is a small talk about the work I'm developing with Dominique
+    Orban. Those interested in CUTEst should come and be impressed.
 
-- author: Fulano
-  date: 2016-09-16
-  title: Another Title
-  abstract: This is a small abstract of the presentation that I would give about in the seminars
+- author: Teles A. Fernandes
+  date: 2016-09-23
+  affiliation: PPGM
+  title: TBA
+
+- author: Lucas Seiffert
+  date: 2016-09-30
+  affiliation: Matemática Industrial
+  title: TBA
+
+- author: Adriano Delfino
+  date: 2016-10-07
+  affiliation: PPGM
+  title: TBA
+
+- author: Lucas G. Pedroso
+  date: 2016-10-21
+  affiliation: UFPR
+  title: TBA
+
+- author: João L. Gonçalves
+  date: 2016-11-18
+  affiliation: UTFPR
+  title: TBA
+
+- author: Rodrigo G. Eustáquio
+  date: 2016-11-25
+  affiliation: UTFPR
+  title: TBA
+
+- author: TBA
+  date: 2016-11-04
+
+- author: TBA
+  date: 2016-11-11
