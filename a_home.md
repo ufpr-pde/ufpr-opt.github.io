@@ -14,7 +14,7 @@ permalink: /
     {% if event.author == "TBA" %}
     <em>Free Spot</em>
     {% else %}
-    <em>{{ event.author }}</em>: {{ event.title }}
+    <em>{{ event.author }}</em>{% if event.title %}:{{ event.title }}{% endif %}
     {% endif %}
     </li>
     {% endfor %}

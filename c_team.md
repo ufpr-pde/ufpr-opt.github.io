@@ -8,19 +8,19 @@ permalink: /team/
 {% for p in team %}
 <div class="card container-fluid">
 
-  <div class="col-md-2">
+  <div class="col-xs-4 col-md-2">
   <div class="pull-left">
     {% if p.site %}<a href="{{ p.site }}">{% endif %}
-      <img class="photo img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ p.key }}-sm.png" alt="{{ p.fullname }}">
+      <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ p.key }}-sm.png" alt="{{ p.fullname }}">
     {% if p.site %}</a>{% endif %}
   </div>
   </div>
-  <div class="col-md-6">
+  <div class="col-xs-4 col-md-6">
   <h4> <a href="{{ site.baseurl }}/team/{{ p.key }}.html"> {{ p.fullname }} </a> </h4>
   <p> {{ p.rank }} Professor </p>
   </div>
 
-  <div class="col-md-4 text-right team-info-logo">
+  <div class="col-xs-4 text-right team-info-logo">
     <a href="{{ p.lattes }}">
       <img src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
     </a>

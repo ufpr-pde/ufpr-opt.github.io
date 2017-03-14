@@ -1,46 +1,51 @@
-- author: Abel Soares Siqueira
-  date: 2016-10-14
+- author: Geovani N. Grapiglia
+  date: 2017-03-17
   affiliation: UFPR
-  title: Optimization in the Julia Language
-  abstract: This is a small talk about the work I'm developing with Dominique
-    Orban. Those interested in CUTEst should come and be impressed.
 
-- author: Teles A. Fernandes
-  date: 2016-11-11
-  affiliation: PPGM
-  title: TBA
+- author: Fernando de Ávila Silva
+  date: 2017-03-24
+  affiliation: UFPR
 
 - author: Lucas Seiffert
-  date: 2016-09-30
-  affiliation: Matemática Industrial
-  title: TBA
+  date: 2017-03-31
+  affiliation: IC - Matemática
 
-- author: Adriano Delfino
-  date: 2016-09-23
-  affiliation: PPGM
-  title: TBA
+- author: Adriano Verdério
+  date: 2017-04-07
+  affiliation: UTFPR
 
-- author: Lucas G. Pedroso
-  date: 2016-10-21
+- author: Alberto Ramos
+  date: 2017-04-28
   affiliation: UFPR
-  title: TBA
 
-- author: João L. Gonçalves
-  date: 2016-11-18
+- author: Yuan Jinyun
+  date: 2017-05-05
+  affiliation: UFPR
+
+- author: Abel Soares Siqueira
+  date: 2017-05-12
+  affiliation: UFPR
+
+- author: Diego Zontini
+  date: 2017-05-19
+  affiliation: IFPR
+
+- author: Francisco Ganacim
+  date: 2017-05-26
   affiliation: UTFPR
-  title: TBA
 
-- author: Rodrigo G. Eustáquio
-  date: 2016-11-25
-  affiliation: UTFPR
-  title: TBA
+- author: Adriado Delfino
+  date: 2017-06-02
+  affiliation: Doutorado - PPGM
 
-- author: Reserved
-  date: 2016-10-07
-  affiliation: TBA
-  title: TBA
+- author: Alice C. Finkler
+  date: 2017-06-09
+  affiliation: Doutorado - PPGM
 
-- author: Hugo Lara Urdaneta
-  date: 2016-11-04
-  affiliation: UFSC
-  title: TBA
+- author: Roberto Ribeiro
+  date: 2017-06-23
+  affiliation: UFPR
+
+- author: Camila Isoton
+  date: 2017-06-30
+  affiliation: Doutorado - PPGM
