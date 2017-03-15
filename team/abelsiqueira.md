@@ -5,7 +5,8 @@ key: abelsiqueira
 
 Assistant Professor in the Mathematics Department.
 
-Has a B.S. in Computational and Applied Mathematics from the State University of
+I have a B.S. in Computational and Applied Mathematics from the State
+University of
 Campinas, and a Ph.D. in Applied Mathematics from the same university, in the
 field of Nonlinear Optimization.
 
