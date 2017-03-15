@@ -11,7 +11,7 @@ permalink: /team/
   <div class="col-xs-4 col-md-2">
   <div class="pull-left">
     {% if p.site %}<a href="{{ p.site }}">{% endif %}
-      <img class="img-responsive img-thumbnail" src="{{ site.baseurl }}/images/{{ p.key }}-sm.png" alt="{{ p.fullname }}">
+      <img class="photo img-thumbnail" src="{{ site.baseurl }}/images/{{ p.key }}.png" alt="{{ p.fullname }}">
     {% if p.site %}</a>{% endif %}
   </div>
   </div>
@@ -22,7 +22,7 @@ permalink: /team/
 
   <div class="col-xs-4 text-right team-info-logo">
     <a href="{{ p.lattes }}">
-      <img src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
+      <img src="{{ site.baseurl }}/images/lattes.png" alt="Lattes" title="Lattes">
     </a>
     {% if p.github %}
     <a href="http://github.com/{{ p.github }}">

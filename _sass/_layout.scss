@@ -363,7 +363,7 @@ q:after {
   }
   img {
     vertical-align: top;
-    height: 30px;
+    height: 40px;
     margin: 5px;
   }
   i {
@@ -371,16 +371,13 @@ q:after {
   }
 }
 
-.photo {
-  border: 1px solid $border-color;
-  height: 64px;
+.profile-img {
+  width: 360px;
 }
 
-.atributions {
-  img {
-    max-height: 64px;
-    max-width: 128px;
-  }
+.photo {
+  border: 1px solid $border-color;
+  max-height: 120px;
 }
 
 .hideContent {
