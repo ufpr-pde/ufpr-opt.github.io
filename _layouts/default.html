@@ -9,24 +9,9 @@
 
   {% include header.html %}
 
-  {% if site.default_column == "two" %}  
-
-  <div class="page-content col-sm-8">
+  <div class="full-container">
     {{ content }}
-    {% include post_pagination.html %}
   </div>
-  {% include sidebar.html %}
-
-  {% else %}
-
-  <div class="page-content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </div>
-  {% include post_pagination.html %}
-
-  {% endif %}
 
   {% include footer.html %}
 

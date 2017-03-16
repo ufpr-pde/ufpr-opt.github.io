@@ -27,7 +27,7 @@ $border-color:     darken($card-color, 10%);
 
 // Do I use?
 $code-backgroud-color: #29281e;
-$code-font-color:  #eee;  
+$code-font-color:  #eee;
 
 
 // Width of the content area
@@ -56,9 +56,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "_syntax-highlighting-native" // "syntax-highlighting"
+        "base"
 ;
 
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans');

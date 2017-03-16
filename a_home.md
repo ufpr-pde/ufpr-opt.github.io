@@ -4,6 +4,28 @@ title: Home
 permalink: /
 ---
 
+### News
+
+<div class="card container-fluid">
+  {% for post in site.posts %}
+  <div class="row">
+    <div class="visible-xs-block col-xs-12">
+      <h4> <a href="{{ post.url }}">{{ post.title }}</a>
+      <small> {{ post.date | date: "%Y, %b %d" }} </small>
+      </h4>
+    </div>
+    <div class="hidden-xs">
+      <h4> <a href="{{ post.url }}">{{ post.title }}</a>
+      <small> {{ post.date | date: "%Y, %b %d" }} </small>
+      </h4>
+      <p class="excerpt"> {{ post.excerpt | strip_html | truncatewords: 50 }}
+      ... <a href="{{ post.url }}">more</a>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
 ### Seminars - See [details](/seminars)
 
 <div class="card container-fluid">
@@ -67,15 +89,3 @@ permalink: /
   </ul>
 </div>
 
-### News
-
-{% for post in site.posts %}
-<div class="card container-fluid">
-<h4> <a href="{{ post.url }}">{{ post.title }}</a>
-<small> {{ post.date | date: "%Y, %b %d" }} </small>
-</h4>
-<p class="excerpt"> {{ post.excerpt | strip_html | truncatewords: 50 }}
-... <a href="{{ post.url }}">more</a>
-</p>
-</div>
-{% endfor %}

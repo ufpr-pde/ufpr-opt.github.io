@@ -1,15 +1,17 @@
-<header class="site-header">
+<header>
 
-  <div class="wrapper">
+  <div class="full-container">
 
-    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    <h3 class="site-meta">{{ site.tagline }}</h3>
+    <h1 class="text-center"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <h3 class="text-center">{{ site.tagline }}</h3>
 
     <nav class="site-nav row">
-      <div class="trigger col-xs-10">
+      <div class="col-xs-10">
         {% for page in site.pages %}
         {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+          {{ page.title }}
+        </a>
         {% endif %}
         {% endfor %}
       </div>
