@@ -2,14 +2,42 @@
   date: 2017-03-17
   affiliation: UFPR
   title: Regularized Newton Methods for minimizing functions with Hölder continuous Hessians
+  abstract: >
+    In this paper, we study the regularized second-order methods for
+    unconstrained minimization of a twice-differentiable (convex or nonconvex)
+    objective function. For the current function, these methods automatically
+    achieve the best possible global complexity estimates among different
+    Hölder classes containing the Hessian of the objective. We show that such
+    methods for functional residual and for the norm of the gradient must be
+    different. For development of the latter methods, we introduced two new
+    line-search acceptance criteria, which can be seen as generalizations of
+    the Armijo condition.
 
 - author: Fernando de Ávila Silva
   date: 2017-03-24
   affiliation: UFPR
+  title: Global Hypoellipticity of Invariant Linear Operators on Smooth Manifolds
+  abstract: >
+    At first glance, the subject may seem very far from the topics
+    usually discussed in our seminars. However, a key point of Fernando's work is
+    the study of eigenvalues/eigenvectors of matrices with special structure,
+    which is also Numerical Linear Algebra matter. Therefore, this talk is an
+    attempt to bring together people from different areas and create a chance for
+    we help each other!
 
 - author: Lucas Seiffert
   date: 2017-03-31
   affiliation: IC - Matemática
+  title: Stability issues in numerical methods for a fluid-structure interaction problem
+  abstract: >
+    In this seminar I shall present ideas and results from the article [1]
+    regarding a simplified 2-dimensional fluid-structure interaction problem.
+    We will consider a fluid (Euler equations) in a rectangular domain coupled
+    with  generalized springs on the horizontal boundaries. Three possible
+    algorithms for the solution of the problem will be shown  and their
+    stability will be analyzed by the introduction of a linear operator called
+    "added-mass".
+    [1] Causin, P.; Gerbeau, J.-F.; Nobile, F. Added-mass effect in the design of partitioned algorithms for fluid-structure  problems. [Research Report] RR-5084, INRIA. 2004.
 
 - author: Adriano Verdério
   date: 2017-04-07
@@ -35,11 +63,15 @@
   date: 2017-05-26
   affiliation: UTFPR
 
+- author: Hugo J. L. Urdaneta
+  date: 2017-05-26
+  affiliation: UFSC - Blumenau
+
 - author: Adriado Delfino
   date: 2017-06-02
   affiliation: Doutorado - PPGM
 
-- author: Alice C. Finkler
+- author: Aline C. Finkler
   date: 2017-06-09
   affiliation: Doutorado - PPGM
 

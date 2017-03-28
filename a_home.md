@@ -8,17 +8,26 @@ permalink: /
 
 <div class="card container-fluid">
   {% assign events = site.data.seminars | sort: 'date' %}
-  <ul class="fa-ul">
-    {% for event in events %}
-    <li><i class="fa-li fa fa-angle-double-right"> </i>{{ event.date | date: "%Y, %b %d" }} -
-    {% if event.author == "TBA" %}
-    <em>Free Spot</em>
+  {% assign lastdate = "" %}
+  {% for event in events %}
+  <div class="row">
+    {% if event.date != lastdate %}
+  <div class="col-xs-2 text-right">
+    {{ event.date | date: "%Y, %b %d" }}
+  </div>
+  <div class="col-xs-10">
     {% else %}
-    <strong>{{ event.author }}</strong>{% if event.title %} {{ event.title }}{% endif %}
+  <div class="col-xs-offset-2 col-xs-10">
     {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+    {% if event.author == "TBA" %}
+  <em>Free Spot</em>
+    {% else %}
+  <strong>{{ event.author }}</strong>{% if event.title %} {{ event.title }}{% endif %}
+    {% endif %}
+  </div>
+    {% assign lastdate = event.date %}
+  </div>
+  {% endfor %}
 </div>
 
 ### Next events - See [details](/events)
