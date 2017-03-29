@@ -6,19 +6,22 @@
 
 
 // Our variables
-$base-font-family: 'Droid Sans', Helvetica, Arial, sans-serif !important;
+//$base-font-family: 'Share', Helvetica, Arial, sans-serif !important;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6em;
 
+$prim-color:       #2E7D32;
+$sec-color:        #2962FF;
+$link-color:       #006064;
+
 $spacing-unit:     15px;
 
-$text-color:       #101;
 $container-color:  #fff;
 $brand-color:      #3059ff;
 $brand-top-color:  #105972;
 $hover-color:      $brand-color;
-$card-color:       #f6f7fa;
+$card-color:       #ECEFF1;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -28,15 +31,6 @@ $border-color:     darken($card-color, 10%);
 // Do I use?
 $code-backgroud-color: #29281e;
 $code-font-color:  #eee;
-
-
-// Width of the content area
-$content-width:    960px;
-$page-width:       1000px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
 
 
 // Using media queries with like this:
@@ -58,5 +52,3 @@ $on-laptop:        800px;
 @import
         "base"
 ;
-
-@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
