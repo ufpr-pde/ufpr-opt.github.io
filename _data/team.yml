@@ -16,12 +16,13 @@
   lattes: http://lattes.cnpq.br/7837749235554104
   site: http://people.ufpr.br/~ademir.ribeiro/
   email: ademir.ribeiro@ufpr.br
+  rgate: Ademir_Ribeiro
 
 - fullname: Jose Alberto Ramos Flor
   key: albertoramos
   rank: Assistant
   lattes: http://lattes.cnpq.br/3320145045271106
-  site: https://albertoramos.ufpr.br/~albertoramos
+  site: https://albertoramos.github.io
   email: albertoramos@ufpr.br
 
 - fullname: Elizabeth Wegner Karas
@@ -30,6 +31,8 @@
   lattes: http://lattes.cnpq.br/7137611732526625
   site: http://people.ufpr.br/~ewkaras/
   email: ewkaras@ufpr.br
+  rgate: Elizabeth_Karas
+  research: ["Nonlinear Programming", "Convex Optimization", "Energy Optimization"]
 
 - fullname: Geovani Nunes Grapiglia
   rank: Assistant
@@ -43,7 +46,7 @@
   key: lucaspedroso
   rank: Assistant
   lattes: http://lattes.cnpq.br/0906070603571189
-  site: http://people.ufpr.br/~lucaspedroso/
+  site: http://pedrosolucas.github.io
   email: lucaspedroso@ufpr.br
 
 - fullname: Lucelina Batista dos Santos
@@ -65,9 +68,11 @@
   lattes: http://lattes.cnpq.br/1340656534735806
   site: http://people.ufpr.br/~mael/
   email: mael@ufpr.br
+  rgate: Mael_Sachine
 
 - fullname: Yuan Jinyun
   key: yuanjinyun
   rank: Full
   lattes: http://lattes.cnpq.br/4604141026440444
   email: jin@ufpr.br
+  rgate: Jin-Yun_Yuan2
