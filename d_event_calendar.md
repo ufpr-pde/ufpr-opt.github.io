@@ -13,15 +13,17 @@ Usual places to look for next events:
 - [EURO calendar](https://www.euro-online.org/web/pages/460/calendar)
 
 {% assign events = site.data.events | sort: 'date' %}
+<div class="row">
 {% for event in events %}
-<div class="card container-fluid">
+<div class="col-xs-12 col-md-6">
+<div class="card container-fluid event-card">
 <h4 id="{{event.key}}">
 <a href="#{{ event.key }}"></a>
 <a href="{{ event.url }}">
 {% if event.acro %}
   <strong> {{ event.acro }} </strong> -
 {% endif %}
-{{ event.name }}
+{{ event.name }} <i class="fa fa-external-link"></i>
 </a>
 </h4>
 <p>
@@ -46,13 +48,8 @@ Usual places to look for next events:
 on {{ event.datesub | date: "%b %d, %Y" }}</em>
 <br>
 {% endif %}
-{% if event.url %}
-More information on the
-<a href="{{ event.url }}">site</a>.
-{% else %}
-We don't have a site for this event.
-If you know the site, please submit to us.
-{% endif %}
 </p>
 </div>
+</div>
 {% endfor %}
+</div>
