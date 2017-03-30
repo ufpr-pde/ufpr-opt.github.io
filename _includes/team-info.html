@@ -1,0 +1,49 @@
+
+{% if member.email %}
+<a href="mailto:{{ member.email.user }}[FIXME]{{ member.email.dom }}?subject=EMAIL ADDRESS NEEDS EDITING&body=Please change '[FIXME]' with '@' from the address before sending your email.">
+  <i class="fa fa-envelope-square fa-lg"></i>
+  {% if descriptive %}
+  {{ member.email.user}}<span style="display: none">-anti-bot-bit</span> <i class="fa fa-at"></i> {{ member.email.dom }}<br>
+  {% endif %}
+</a>
+{% endif %}
+{% if member.site %}
+<a href="{{ member.site }}">
+  <i class="fa fa-globe fa-lg"></i>
+  {% if descriptive %}
+  Site<br>
+  {% endif %}
+</a>
+{% endif %}
+{% if member.github %}
+<a href="http://github.com/{{ member.github }}">
+  <i class="fa fa-github fa-lg"></i>
+  {% if descriptive %}
+  GitHub<br>
+  {% endif %}
+</a>
+{% endif %}
+{% if member.rgate %}
+<a href="https://www.researchgate.net/profile/{{ member.rgate }}">
+  <i class="ai ai-researchgate fa-lg"></i>
+  {% if descriptive %}
+  Research Gate<br>
+  {% endif %}
+</a>
+{% endif %}
+{% if member.scholar %}
+<a href="https://scholar.google.com.br/citations?user={{ member.scholar }}">
+  <i class="ai ai-google-scholar fa-lg"></i>
+  {% if descriptive %}
+  Google Scholar<br>
+  {% endif %}
+</a>
+{% endif %}
+{% if member.orcid %}
+<a href="https://scholar.google.com.br/citations?user={{ member.orcid }}">
+  <i class="ai ai-orcid fa-lg"></i>
+  {% if descriptive %}
+  OrcID<br>
+  {% endif %}
+</a>
+{% endif %}

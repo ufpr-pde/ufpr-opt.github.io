@@ -2,7 +2,9 @@
   key: abelsiqueira
   lattes: http://lattes.cnpq.br/2986958029448752
   site: http://people.ufpr.br/~abelsiqueira
-  email: abelsiqueira@ufpr.br
+  email:
+    user: abelsiqueira
+    dom: ufpr.br
   github: abelsiqueira
   rgate: Abel_Siqueira
   scholar: ur6VxvwAAAAJ
@@ -15,7 +17,9 @@
   rank: Associate
   lattes: http://lattes.cnpq.br/7837749235554104
   site: http://people.ufpr.br/~ademir.ribeiro/
-  email: ademir.ribeiro@ufpr.br
+  email:
+    user: ademir.ribeiro
+    dom: ufpr.br
   rgate: Ademir_Ribeiro
   research: ["Optimality Conditions", "Derivative-Free Optimization", "Machine Learning", "Convex Optimization"]
 
@@ -24,14 +28,18 @@
   rank: Assistant
   lattes: http://lattes.cnpq.br/3320145045271106
   site: https://albertoramos.github.io
-  email: albertoramos@ufpr.br
+  email:
+    user: albertoramos
+    dom: ufpr.br
 
 - fullname: Elizabeth Wegner Karas
   key: elizabethkaras
   rank: Associate
   lattes: http://lattes.cnpq.br/7137611732526625
   site: http://people.ufpr.br/~ewkaras/
-  email: ewkaras@ufpr.br
+  email:
+    user: ewkaras
+    dom: ufpr.br
   rgate: Elizabeth_Karas
   research: ["Nonlinear Programming", "Convex Optimization", "Energy Optimization"]
 
@@ -40,7 +48,9 @@
   key: geovanigrapiglia
   lattes: http://lattes.cnpq.br/9252887821611226
   rgate: Geovani_Grapiglia
-  email: grapiglia@ufpr.br
+  email:
+    user: grapiglia
+    dom: ufpr.br
   research: ["Complexity Analysis of Algorithms", "Subspace Methods for Large-Scale Optimization", "Derivative-Free Optimization"]
 
 - fullname: Lucas Garcia Pedroso
@@ -48,27 +58,35 @@
   rank: Assistant
   lattes: http://lattes.cnpq.br/0906070603571189
   site: http://pedrosolucas.github.io
-  email: lucaspedroso@ufpr.br
+  email:
+    user: lucaspedroso
+    dom: ufpr.br
 
 - fullname: Lucelina Batista dos Santos
   key: lucelinasantos
   rank: Assistant
   lattes: http://lattes.cnpq.br/3485740534127573
-  email: lucelina@ufpr.br
+  email:
+    user: lucelina
+    dom: ufpr.br
 
 - fullname: Luiz Carlos Matioli
   key: luizmatioli
   rank: Associate
   lattes: http://lattes.cnpq.br/6084324625677114
   site: http://people.ufpr.br/~matioli/
-  email: matioli@ufpr.br
+  email:
+    user: matioli
+    dom: ufpr.br
 
 - fullname: Mael Sachine
   key: maelsachine
   rank: Assistant
   lattes: http://lattes.cnpq.br/1340656534735806
   site: http://people.ufpr.br/~mael/
-  email: mael@ufpr.br
+  email:
+    user: mael
+    dom: ufpr.br
   rgate: Mael_Sachine
   research: ["Computational Methods of Optimization"]
 
@@ -76,5 +94,7 @@
   key: yuanjinyun
   rank: Full
   lattes: http://lattes.cnpq.br/4604141026440444
-  email: jin@ufpr.br
+  email:
+    user: jin
+    dom: ufpr.br
   rgate: Jin-Yun_Yuan2

@@ -1,3 +1,32 @@
+.team_member {
+  .profile-img {
+    @media screen and (min-width: 768px) {
+      height: 300px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 40vw;
+    }
+    margin-right: 10px;
+  }
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+      color: lighten($link-color, 20%);
+      text-decoration: none;
+    }
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .team-info-logo {
+    font-size: 1.5em;
+    img {
+      width: 38px;
+    }
+  }
+}
+
 .card-team-name {
   font-size: 30px;
   font-variant: small-caps;
@@ -75,7 +104,7 @@
   background-color: $card-color;
   border: 1px solid $border-color;
   padding: 3px 20px;
-  margin: 20px;
+  margin-bottom: 10px;
   width: 100%;
   position: relative;
 

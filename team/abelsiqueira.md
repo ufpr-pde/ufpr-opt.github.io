@@ -3,13 +3,10 @@ layout: team_member
 key: abelsiqueira
 ---
 
-Assistant Professor in the Mathematics Department.
-
-I have a B.S. in Computational and Applied Mathematics from the State
-University of
-Campinas, and a Ph.D. in Applied Mathematics from the same university, in the
-field of Nonlinear Optimization.
-
-My interests are in the computational aspects of optimization; the development and
-implementation of nonlinear programming methods; the study of new methods and
-techniques for solving computational problems.
+Abel Soares Siqueira is an Assistant Professor in the Department of Mathematics at
+Federal University of Paraná, where he has been a faculty member since 2014.
+He has a B.S. in Computational and Applied Mathematics from the State
+University of Campinas, and completed his Ph.D. in Applied Mathematics in 2013
+from the same university.
+His interests are the computational aspects of optimization; nonlinear
+programming methods and derivative-free optimization.

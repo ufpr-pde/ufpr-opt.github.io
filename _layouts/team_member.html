@@ -2,73 +2,63 @@
 layout: default
 ---
 
-{% for tm in site.data.team %}
-{% if page.key == tm.key %}
+{% for member in site.data.team %}
+{% if page.key == member.key %}
 
 <div class="team_member container-fluid">
 
-  <h1> {{ tm.fullname }} </h1>
-
-  <div class="col-md-8">
-    <div class="text-justify">
-    {{ content }}
+  <div class="row">
+    <div class="col-xs-12">
+      <h1> {{ member.fullname }} </h1>
     </div>
+  </div>
 
-  <h2> Research Topics </h2>
-  {% for t in tm.research %}
-  <ul>
-    <li> {{ t }} </li>
-  </ul>
-  {% endfor %}
+  <div class="row">
+    <div class="col-xs-12 col-md-8"> <!-- First column -->
 
-  </div> <!-- End of col-md-8 -->
+      <div class="pull-left">
+        <!-- Photo -->
+        <img class="profile-img img-thumbnail" src="{{ site.baseurl }}/images/{{ member.key }}.jpg">
+      </div>
 
-  <div class="col-md-4">
-    <!-- Photo -->
-    <img class="profile-img img-thumbnail img-responsive" src="{{ site.baseurl }}/images/{{
-    tm.key }}.jpg">
+      <div class="text-justify">
+        <p>
+        {{ content }}
+        </p>
+      </div>
 
-    <hr>
+      <div class="text-right">
+        <a href="{{ member.lattes }}">
+          <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
+          Lattes<br>
+        </a>
+      </div>
+
+    </div> <!-- First column end -->
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card">
+      <h2> Research Topics </h2>
+      <ul class="fa-ul">
+      {% for t in member.research %}
+        <li><i class="fa-li fa fa-caret-right"></i> {{ t }} </li>
+      {% endfor %}
+      </ul>
+      </div>
+    </div>
 
     <!-- Info -->
-    <div class="team-info-logo text-center">
-    <a href="{{ tm.lattes }}">
-      <img class="logo" src="{{ site.baseurl }}/images/lattes.png" alt="Lattes">
-    </a>
-    {% if tm.email %}
-    <a href="mailto:{{ tm.email }}">
-      <i class="fa fa-envelope fa-3x"></i>
-    </a>
-    {% endif %}
-    {% if tm.site %}
-    <a href="{{ tm.site }}">
-      <i class="fa fa-globe fa-3x"></i>
-    </a>
-    {% endif %}
-    {% if tm.github %}
-    <a href="http://github.com/{{ tm.github }}">
-      <i class="fa fa-github fa-3x"></i>
-    </a>
-    {% endif %}
-    {% if tm.rgate %}
-    <a href="https://www.researchgate.net/profile/{{ tm.rgate }}">
-      <i class="ai ai-researchgate ai-3x"></i>
-    </a>
-    {% endif %}
-    {% if tm.scholar %}
-    <a href="https://scholar.google.com.br/citations?user={{ tm.scholar }}">
-      <i class="ai ai-google-scholar ai-3x"></i>
-    </a>
-    {% endif %}
-    {% if tm.orcid %}
-    <a href="https://scholar.google.com.br/citations?user={{ tm.orcid }}">
-      <i class="ai ai-orcid ai-3x"></i>
-    </a>
-    {% endif %}
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="team-info-logo text-left card">
+        <h2> Contact </h2>
+        {% assign descriptive = "yes" %}
+        {% include team-info.html %}
+      </div>
     </div>
-  </div> <!-- End of col-md-4 -->
+  </div>
 
-<div>
+</div>
 
-{% endif %}
-{% endfor %}
+  {% break %}
+  {% endif %}
+  {% endfor %}
