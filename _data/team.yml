@@ -10,7 +10,7 @@
   scholar: ur6VxvwAAAAJ
   orcid: 0000-0003-4451-281X
   rank: Assistant
-  research: ["Computational Optimization", "Continuous Optimization", "Open Source Software", "Nonlinear Programming", "Large-Scale Optimization"]
+  research: ["Computational Methods of Optimization", "Continuous Optimization", "Open Source Software", "Nonlinear Programming", "Large-Scale Optimization"]
 
 - fullname: Ademir Alves Ribeiro
   key: ademirribeiro
@@ -31,6 +31,7 @@
   email:
     user: albertoramos
     dom: ufpr.br
+  research: ["Nonlinear Programming", "Variational Analysis and Nonsmooth Optimization", "Computational Methods of Optimization"]
 
 - fullname: Elizabeth Wegner Karas
   key: elizabethkaras
@@ -61,6 +62,7 @@
   email:
     user: lucaspedroso
     dom: ufpr.br
+  research: ["Derivative-free Optimization", "Machine Learning"]
 
 - fullname: Lucelina Batista dos Santos
   key: lucelinasantos
