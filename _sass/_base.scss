@@ -1,3 +1,8 @@
+.card-team-name {
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
 .next-seminar {
   h3 {
     font-variant: small-caps;
@@ -96,6 +101,29 @@
   .excerpt {
     padding: 0px 10px;
     color: $grey-color;
+  }
+  img {
+    height: 40px;
+    @media screen and (max-width: 768px) {
+      height: 30px;
+    }
+  }
+  .photo {
+    height: 140px;
+    @media screen and (max-width: 768px) {
+      height: 100px;
+    }
+    margin-right: 10px;
+    @media screen and (max-width: 768px) {
+      margin-right: 5px;
+    }
+  }
+}
+
+.icons {
+  font-size: 40px;
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
   }
 }
 
