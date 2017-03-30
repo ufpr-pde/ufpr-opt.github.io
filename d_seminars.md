@@ -2,6 +2,10 @@
 layout: page
 title: Seminars
 permalink: /seminars/
+semesters:
+  - 2017s1
+  - 2016s2
+  - 2016s1
 ---
 
 <h2> Optimization and Numerical Analysis </h2>
@@ -9,12 +13,23 @@ permalink: /seminars/
 This semester the seminars will take place on the Anfiteatro A, at 15h30,
 Fridays.
 
+Older seminars:
+<ul class="list-inline">
+{% for semester in page.semesters %}
+<li><button class="btn btn-primary" onclick="seminarShow('{{semester}}')">
+{{semester}}
+</button></li>
+{% endfor %}
+</ul>
+
 <hr>
 
-{% assign events = site.data.seminars | sort: 'date' %}
+{% for semester in page.semesters %}
+<div class="container-fluid seminar-show" id="{{ semester }}">
+<h3> {{ semester }} </h3>
+{% assign events = site.data.seminars | where: 'semester', semester | sort: 'date' %}
 {% assign lastdate = "" %}
 
-<div class="container-fluid">
 {% for pres in events %}
 <div class="row">
 {% if pres.date != lastdate %}
@@ -46,4 +61,6 @@ Fridays.
 {% assign lastdate = pres.date %}
 </div>
 {% endfor %}
-</div>
+</div> <!-- end div id=semeter -->
+
+{% endfor %}

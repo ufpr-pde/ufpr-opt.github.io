@@ -1,5 +1,6 @@
 - author: Geovani N. Grapiglia
   date: 2017-03-17
+  semester: 2017s1
   affiliation: UFPR
   title: Regularized Newton Methods for minimizing functions with Hölder continuous Hessians
   abstract: >
@@ -15,6 +16,7 @@
 
 - author: Fernando de Ávila Silva
   date: 2017-03-24
+  semester: 2017s1
   affiliation: UFPR
   title: Global Hypoellipticity of Invariant Linear Operators on Smooth Manifolds
   abstract: >
@@ -27,6 +29,7 @@
 
 - author: Lucas Seiffert
   date: 2017-03-31
+  semester: 2017s1
   affiliation: IC - Matemática
   title: Stability issues in numerical methods for a fluid-structure interaction problem
   abstract: >
@@ -41,44 +44,55 @@
 
 - author: Adriano Verdério
   date: 2017-04-07
+  semester: 2017s1
   affiliation: UTFPR
 
 - author: Alberto Ramos
   date: 2017-04-28
+  semester: 2017s1
   affiliation: UFPR
 
 - author: Yuan Jinyun
   date: 2017-05-05
+  semester: 2017s1
   affiliation: UFPR
 
 - author: Abel Soares Siqueira
   date: 2017-05-12
+  semester: 2017s1
   affiliation: UFPR
 
 - author: Diego Zontini
   date: 2017-05-19
+  semester: 2017s1
   affiliation: IFPR
 
 - author: Francisco Ganacim
   date: 2017-05-26
+  semester: 2017s1
   affiliation: UTFPR
 
 - author: Hugo J. L. Urdaneta
   date: 2017-05-26
+  semester: 2017s1
   affiliation: UFSC - Blumenau
 
 - author: Adriado Delfino
   date: 2017-06-02
+  semester: 2017s1
   affiliation: Doutorado - PPGM
 
 - author: Aline C. Finkler
   date: 2017-06-09
+  semester: 2017s1
   affiliation: Doutorado - PPGM
 
 - author: Roberto Ribeiro
   date: 2017-06-23
+  semester: 2017s1
   affiliation: UFPR
 
 - author: Camila Isoton
   date: 2017-06-30
+  semester: 2017s1
   affiliation: Doutorado - PPGM
