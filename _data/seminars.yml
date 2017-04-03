@@ -46,6 +46,24 @@
   date: 2017-04-07
   semester: 2017s1
   affiliation: UTFPR
+  title: "Construction of quadratic models for derivative-free trust-region algorithms: polynomial interpolation versus support vector regression."
+  abstract: >
+    We consider derivative-free trust-region algorithms based on sampling
+    approaches for convex constrained problems and discuss two conditions on
+    the quadratic models for ensuring their global convergence. The first
+    condition requires the poisedness of the sample sets, as usual in this
+    context, while the other one is related to the error between the model and
+    the objective function at the sample points. Although the second condition
+    trivially holds if the model is constructed by polynomial interpolation,
+    since in this case the model coincides with the objective function at the
+    sample set, we show that it also holds for models constructed by support
+    vector regression. These two conditions imply that the error between the
+    gradient of the trust-region model and the objective function is of the
+    order of the radius that controls the diameter of the sample set. This
+    allows proving the global convergence of a trust-region algorithm that
+    uses two radii, the sample set radius and the trust-region radius.
+    Numerical experiments are presented for minimizing functions with and
+    without noise.
 
 - author: Alberto Ramos
   date: 2017-04-28
