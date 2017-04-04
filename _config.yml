@@ -1,8 +1,8 @@
-title: UFPR-OPT - Optimization Group of the Federal University of Paraná
-author: Abel Soares Siqueira
-email: abel.s.siqueira@gmail.com
-description: "UFPR's Optimization Group"
+title: UFPR-PDE - Analysis and PDE Group of the Federal University of Paraná
+author: Fernando de Avila Silva
+email: favilasi@gmail.com
+description: "UFPR's Analysis and PDE  Group"
 baseurl: ""
-url: "http://ufpr-opt.github.io/" # the base hostname & protocol for your site
+url: "http://ufpr-pde.github.io/" # the base hostname & protocol for your site
 
 markdown: kramdown
