@@ -1,16 +1,16 @@
-- fullname: Abel Soares Siqueira
-  key: abelsiqueira
-  lattes: http://lattes.cnpq.br/2986958029448752
-  site: http://people.ufpr.br/~abelsiqueira
+- fullname: Fernando de Ávila Silva
+  key: fernandoavila
+  lattes: http://lattes.cnpq.br/7722952325100580
+  site: http://people.ufpr.br/~fernando.avila
   email:
-    user: abelsiqueira
+    user: fernando.avila
     dom: ufpr.br
-  github: abelsiqueira
+  github: favilasi
   rgate: Abel_Siqueira
-  scholar: ur6VxvwAAAAJ
-  orcid: 0000-0003-4451-281X
+  scholar: fazer
+  orcid: fazer
   rank: Assistant
-  research: ["Computational Methods of Optimization", "Continuous Optimization", "Open Source Software", "Nonlinear Programming", "Large-Scale Optimization"]
+  research: ["a", "Continuous Optimization", "b", "c", "d"]
 
 - fullname: Ademir Alves Ribeiro
   key: ademirribeiro
