@@ -1,6 +1,6 @@
 ---
 layout: team_member
-key: fernandoavila
+key: jurandir
 ---
 
 Jurandir Ceccon is an ...
