@@ -40,4 +40,34 @@
     dom: ufpr.br
   rgate: Higidio_Portillo
   research: ["a", "a", "a"]
+  
+  - fullname: Ailin Ruiz de Zarate Fabregas
+  key: ailin
+  rank: Associate
+  lattes:  lattes.cnpq.br/3611428835895959 
+  email:
+    user: ailin
+    dom: ufpr.br
+  rgate: Ailin_Ruiz
+  research: ["a", "a", "a"]
+  
+    - fullname: Cleber de Medeira
+  key: cleber
+  rank: Associate
+  lattes:  lattes.cnpq.br/0555030394187310 
+  email:
+    user: clebermedeira
+    dom: ufpr.br
+  rgate: Cleber_Medeira
+  research: ["a", "a", "a"]
+  
+      - fullname: Pedro Danizete Damázio
+  key: pedro
+  rank: Associate
+  lattes:  lattes.cnpq.br/7631408486560811
+  email:
+    user: pddamazio
+    dom: ufpr.br
+  rgate: Pedro_Damazio
+  research: ["a", "a", "a"]
 
