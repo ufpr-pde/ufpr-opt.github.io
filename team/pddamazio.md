@@ -1,6 +1,6 @@
 ---
 layout: team_member
-key: pddamazio
+key:  pddamazio
 ---
 
 Pedro Danizete Damázio is...
