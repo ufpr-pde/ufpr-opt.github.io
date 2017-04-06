@@ -31,11 +31,15 @@
     dom: ufpr.br
   research: ["a", "a", "a"]
   
-  - fullname: Ailin Ruiz de Zarate Fabregas 
-  key: ailinruiz
+ 
+
+    - fullname: Cleber de Medeira
+  key: clebermedeira
   rank: Associate
-  lattes:  lattes.cnpq.br/3611428835895959 
+  lattes:  lattes.cnpq.br/0555030394187310 
   email:
-    user: ailin
+    user: clebermedeira
     dom: ufpr.br
+  rgate: Cleber_Medeira
   research: ["a", "a", "a"]
+ 
