@@ -8,93 +8,36 @@
   rgate: Fernando_Avila
   orcid: fazer
   rank: Assistant
-  research: ["a", "Continuous Optimization", "b", "c", "d"]
+  research: ["a", "a", "b", "c", "d"]
 
-- fullname: Ademir Alves Ribeiro
-  key: ademirribeiro
+- fullname: Alexandre kirilov
+  key: alexandrekirilov
   rank: Associate
-  lattes: http://lattes.cnpq.br/7837749235554104
-  site: http://people.ufpr.br/~ademir.ribeiro/
+  lattes: lattes.cnpq.br/0680699946294408
+  site: http://people.ufpr.br/~akirilov
   email:
-    user: ademir.ribeiro
+    user: akirilov
     dom: ufpr.br
-  rgate: Ademir_Ribeiro
-  research: ["Optimality Conditions", "Derivative-Free Optimization", "Machine Learning", "Convex Optimization"]
+  rgate: Alexandre_Kirilov
+  research: ["a", "a", "", "a"]
 
-- fullname: Jose Alberto Ramos Flor
-  key: albertoramos
+- fullname: Jurandir Ceccon
+  key: jurandir
   rank: Assistant
-  lattes: http://lattes.cnpq.br/3320145045271106
-  site: https://albertoramos.github.io
+  lattes: lattes.cnpq.br/1725073228922583
   email:
-    user: albertoramos
+    user: ceccon
     dom: ufpr.br
-  research: ["Nonlinear Programming", "Variational Analysis and Nonsmooth Optimization", "Computational Methods of Optimization"]
+  research: ["a", "a", "a"]
 
-- fullname: Elizabeth Wegner Karas
-  key: elizabethkaras
+- fullname: Higidio Portillo Oquendo 
+  key: higidio
   rank: Associate
-  lattes: http://lattes.cnpq.br/7137611732526625
-  site: http://people.ufpr.br/~ewkaras/
+  lattes: lattes.cnpq.br/1706807998648290
+  site: http://people.ufpr.br/~higidio
   email:
-    user: ewkaras
+    user: higidio
     dom: ufpr.br
-  rgate: Elizabeth_Karas
-  research: ["Nonlinear Programming", "Convex Optimization", "Energy Optimization"]
+  rgate: Higidio_Portillo
+  research: ["a", "a", "a"]
 
-- fullname: Geovani Nunes Grapiglia
-  rank: Assistant
-  key: geovanigrapiglia
-  lattes: http://lattes.cnpq.br/9252887821611226
-  rgate: Geovani_Grapiglia
-  email:
-    user: grapiglia
-    dom: ufpr.br
-  research: ["Complexity Analysis of Algorithms", "Subspace Methods for Large-Scale Optimization", "Derivative-Free Optimization"]
-
-- fullname: Lucas Garcia Pedroso
-  key: lucaspedroso
-  rank: Assistant
-  lattes: http://lattes.cnpq.br/0906070603571189
-  site: http://pedrosolucas.github.io
-  email:
-    user: lucaspedroso
-    dom: ufpr.br
-  research: ["Derivative-free Optimization", "Machine Learning"]
-
-- fullname: Lucelina Batista dos Santos
-  key: lucelinasantos
-  rank: Assistant
-  lattes: http://lattes.cnpq.br/3485740534127573
-  email:
-    user: lucelina
-    dom: ufpr.br
-
-- fullname: Luiz Carlos Matioli
-  key: luizmatioli
-  rank: Associate
-  lattes: http://lattes.cnpq.br/6084324625677114
-  site: http://people.ufpr.br/~matioli/
-  email:
-    user: matioli
-    dom: ufpr.br
-
-- fullname: Mael Sachine
-  key: maelsachine
-  rank: Assistant
-  lattes: http://lattes.cnpq.br/1340656534735806
-  site: http://people.ufpr.br/~mael/
-  email:
-    user: mael
-    dom: ufpr.br
-  rgate: Mael_Sachine
-  research: ["Computational Methods of Optimization"]
-
-- fullname: Yuan Jinyun
-  key: yuanjinyun
-  rank: Full
-  lattes: http://lattes.cnpq.br/4604141026440444
-  email:
-    user: jin
-    dom: ufpr.br
-  rgate: Jin-Yun_Yuan2
