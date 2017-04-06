@@ -60,3 +60,14 @@
   rgate: Pedro_Damazio
   research: ["a", "a", "a"]
 
+
+- fullname: Higidio Portillo Oquendo 
+  key: higidio 
+  rank: Associate
+  lattes: lattes.cnpq.br/1706807998648290
+  site: http://people.ufpr.br/~higidio
+  email:
+    user: higidio
+    dom: ufpr.br
+  rgate: Higidio_Portillo
+  research: ["a", "a", "a"]
