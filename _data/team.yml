@@ -43,16 +43,4 @@
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
-  - fullname: Fernando de Ávila Silva
-  key: clebermedeira
-  lattes: http://lattes.cnpq.br/7722952325100580
-  site: http://people.ufpr.br/~fernando.avila
-  email:
-    user: fernando.avila
-    dom: ufpr.br
-  rgate: Fernando_Avila
-  orcid: fazer
-  rank: Assistant
-  research: ["a", "a", "b", "c", "d"]
-  
   
