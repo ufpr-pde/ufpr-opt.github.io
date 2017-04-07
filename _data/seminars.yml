@@ -1,102 +1,53 @@
 
-- author: Fernando de Ávila Silva
-  date: 2017-03-24
-  semester: 2017s1
-  affiliation: UFPR
-  title: Global Hypoellipticity of Invariant Linear Operators on Smooth Manifolds
-  abstract: >
-    At first glance, the subject may seem very far from the topics
-    usually discussed in our seminars. However, a key point of Fernando's work is
-    the study of eigenvalues/eigenvectors of matrices with special structure,
-    which is also Numerical Linear Algebra matter. Therefore, this talk is an
-    attempt to bring together people from different areas and create a chance for
-    we help each other!
 
-- author: Lucas Seiffert
-  date: 2017-03-31
-  semester: 2017s1
-  affiliation: IC - Matemática
-  title: Stability issues in numerical methods for a fluid-structure interaction problem
-  abstract: >
-    In this seminar I shall present ideas and results from the article [1]
-    regarding a simplified 2-dimensional fluid-structure interaction problem.
-    We will consider a fluid (Euler equations) in a rectangular domain coupled
-    with  generalized springs on the horizontal boundaries. Three possible
-    algorithms for the solution of the problem will be shown  and their
-    stability will be analyzed by the introduction of a linear operator called
-    "added-mass".
-    [1] Causin, P.; Gerbeau, J.-F.; Nobile, F. Added-mass effect in the design of partitioned algorithms for fluid-structure  problems. [Research Report] RR-5084, INRIA. 2004.
-
-- author: Adriano Verdério
-  date: 2017-04-07
-  semester: 2017s1
-  affiliation: UTFPR
-  title: "Construction of quadratic models for derivative-free trust-region algorithms: polynomial interpolation versus support vector regression."
-  abstract: >
-    We consider derivative-free trust-region algorithms based on sampling
-    approaches for convex constrained problems and discuss two conditions on
-    the quadratic models for ensuring their global convergence. The first
-    condition requires the poisedness of the sample sets, as usual in this
-    context, while the other one is related to the error between the model and
-    the objective function at the sample points. Although the second condition
-    trivially holds if the model is constructed by polynomial interpolation,
-    since in this case the model coincides with the objective function at the
-    sample set, we show that it also holds for models constructed by support
-    vector regression. These two conditions imply that the error between the
-    gradient of the trust-region model and the objective function is of the
-    order of the radius that controls the diameter of the sample set. This
-    allows proving the global convergence of a trust-region algorithm that
-    uses two radii, the sample set radius and the trust-region radius.
-    Numerical experiments are presented for minimizing functions with and
-    without noise.
-    
-- author: Teste
+   
+- author: Seminar 1
   date: 2017-04-28
   semester: 2017s1
   affiliation: UFPR
  
 
-- author: Yuan Jinyun
+- author: Seminar 2
   date: 2017-05-05
   semester: 2017s1
   affiliation: UFPR
 
-- author: Abel Soares Siqueira
+- author: Seminar 3
   date: 2017-05-12
   semester: 2017s1
   affiliation: UFPR
 
-- author: Diego Zontini
+- author: Seminar 4
   date: 2017-05-19
   semester: 2017s1
-  affiliation: IFPR
+  affiliation: UFPR
 
-- author: Francisco Ganacim
+- author: Seminar 5
   date: 2017-05-26
   semester: 2017s1
-  affiliation: UTFPR
+  affiliation: UFPR
 
-- author: Hugo J. L. Urdaneta
+- author: Seminar 6
   date: 2017-05-26
   semester: 2017s1
-  affiliation: UFSC - Blumenau
+  affiliation: UFPR
 
-- author: Adriado Delfino
+- author: Seminar 7
   date: 2017-06-02
   semester: 2017s1
-  affiliation: Doutorado - PPGM
+  affiliation: UFPR
 
-- author: Aline C. Finkler
+- author: Seminar 8
   date: 2017-06-09
   semester: 2017s1
-  affiliation: Doutorado - PPGM
+  affiliation: UFPR
 
-- author: Roberto Ribeiro
+- author: Seminar 9
   date: 2017-06-23
   semester: 2017s1
   affiliation: UFPR
 
-- author: Camila Isoton
+- author: Seminar 10
   date: 2017-06-30
   semester: 2017s1
-  affiliation: Doutorado - PPGM
+  affiliation: UFPR
