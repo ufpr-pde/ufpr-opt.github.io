@@ -4,8 +4,7 @@ title: Seminars
 permalink: /seminars/
 semesters:
   - 2017s1
-  - 2016s2
-  - 2016s1
+
 ---
 
 <h2> Analysis and PDE  </h2>
