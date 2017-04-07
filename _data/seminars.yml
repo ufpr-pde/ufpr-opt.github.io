@@ -7,7 +7,7 @@
   affiliation: UFPR
   title: PDE's. 
   
-   abstract: >
+  
     In this paper, we study the regularized second-order methods for
     unconstrained minimization of a twice-differentiable (convex or nonconvex)
     objective function. For the current function, these methods automatically
