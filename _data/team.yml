@@ -54,7 +54,16 @@
   research: ["a", "a", "b", "c", "d"]  
   
 
-  
+  - fullname: Ailin Ruiz de Zarate Fabregas
+  key: ailinruiz
+  lattes: lattes.cnpq.br/3611428835895959 
+  email:
+    user: ailin
+    dom: ufpr.br
+  rgate: Ailin_Ruiz
+  orcid: fazer
+  rank: Assistant
+  research: ["a", "a", "b", "c", "d"]
 
   
   
