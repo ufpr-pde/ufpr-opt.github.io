@@ -53,7 +53,6 @@
   email:
     user: ailin
     dom: ufpr.br
-  orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]  
   
@@ -64,7 +63,6 @@
   email:
     user: higidio
     dom: ufpr.br
-  orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
@@ -74,7 +72,6 @@
   email:
     user: robertoribeiro
     dom: ufpr.br
-  orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
