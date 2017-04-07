@@ -16,7 +16,6 @@
   email:
     user: akirilov
     dom: ufpr.br
-  rgate: Alexandre_Kirilov
   research: ["a", "a", "", "a"]
 
 - fullname: Jurandir Ceccon
@@ -35,7 +34,6 @@
   email:
     user: pddamazio
     dom: ufpr.br
-  orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
@@ -46,8 +44,6 @@
   email:
     user: clebermedeira
     dom: ufpr.br
-  rgate: Cleber_Medeira
-  orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]  
   
