@@ -1,54 +1,49 @@
-
 - author: Geovani N. Grapiglia
-  date: 2017-04-28
+  date: 2017-03-17
   semester: 2017s1
   affiliation: UFPR
-  title: Title 1
+  title: Regularized Newton Methods for minimizing functions with Hölder continuous Hessians
   abstract: >
-    In this talk, ...
-  
+    In this paper, we study the regularized second-order methods for
+    unconstrained minimization of a twice-differentiable (convex or nonconvex)
+    objective function. For the current function, these methods automatically
+    achieve the best possible global complexity estimates among different
+    Hölder classes containing the Hessian of the objective. We show that such
+    methods for functional residual and for the norm of the gradient must be
+    different. For development of the latter methods, we introduced two new
+    line-search acceptance criteria, which can be seen as generalizations of
+    the Armijo condition.
 
-- author: Seminar 2
-  date: 2017-05-05
+- author: Fernando de Ávila Silva
+  date: 2017-03-24
   semester: 2017s1
   affiliation: UFPR
-    title: Regularized Newton Methods for minimizing functions with Hölder continuous Hessians
+  title: Global Hypoellipticity of Invariant Linear Operators on Smooth Manifolds
   abstract: >
-    In this talk, ...
-  
+    At first glance, the subject may seem very far from the topics
+    usually discussed in our seminars. However, a key point of Fernando's work is
+    the study of eigenvalues/eigenvectors of matrices with special structure,
+    which is also Numerical Linear Algebra matter. Therefore, this talk is an
+    attempt to bring together people from different areas and create a chance for
+    we help each other!
 
-- author: Seminar 3
-  date: 2017-05-12
+- author: Lucas Seiffert
+  date: 2017-03-31
   semester: 2017s1
-  affiliation: UFPR
+  affiliation: IC - Matemática
+  title: Stability issues in numerical methods for a fluid-structure interaction problem
+  abstract: >
+    In this seminar I shall present ideas and results from the article [1]
+    regarding a simplified 2-dimensional fluid-structure interaction problem.
+    We will consider a fluid (Euler equations) in a rectangular domain coupled
+    with  generalized springs on the horizontal boundaries. Three possible
+    algorithms for the solution of the problem will be shown  and their
+    stability will be analyzed by the introduction of a linear operator called
+    "added-mass".
+    [1] Causin, P.; Gerbeau, J.-F.; Nobile, F. Added-mass effect in the design of partitioned algorithms for fluid-structure  problems. [Research Report] RR-5084, INRIA. 2004.
 
-- author: Seminar 4
-  date: 2017-05-19
+- author: Adriano Verdério
+  date: 2017-04-07
   semester: 2017s1
-  affiliation: UFPR
-
-- author: Seminar 5
-  date: 2017-05-26
-  semester: 2017s1
-  affiliation: UFPR
-
-
-- author: Seminar 6
-  date: 2017-06-02
-  semester: 2017s1
-  affiliation: UFPR
-
-- author: Seminar 7
-  date: 2017-06-09
-  semester: 2017s1
-  affiliation: UFPR
-
-- author: Seminar 8
-  date: 2017-06-23
-  semester: 2017s1
-  affiliation: UFPR
-
-- author: Seminar 9
-  date: 2017-06-30
-  semester: 2017s1
-  affiliation: UFPR
+  affiliation: UTFPR
+  title: "Construction of quadratic models for derivative-free trust-region algorithms: polynomial interpolation versus support vector regression."
