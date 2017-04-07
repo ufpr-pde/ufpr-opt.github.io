@@ -33,12 +33,23 @@
 
 - fullname: Pedro Danizete Damázio
   key: pddamazio
-  lattes: http://lattes.cnpq.br/7722952325100580
-  site: http://people.ufpr.br/~fernando.avila
+  lattes: lattes.cnpq.br/7631408486560811
+  site: http://people.ufpr.br/~pddamazio
   email:
-    user: fernando.avila
+    user: pddamazio
     dom: ufpr.br
-  rgate: Fernando_Avila
   orcid: fazer
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
+  
+  - fullname: Cleber de Medeira
+  key: clebermedeira
+  lattes: lattes.cnpq.br/0555030394187310
+  site: http://people.ufpr.br/~clebermedeira
+  email:
+    user: clebermedeira
+    dom: ufpr.br
+  orcid: fazer
+  rank: Assistant
+  research: ["a", "a", "b", "c", "d"]
+  
