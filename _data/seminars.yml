@@ -1,5 +1,5 @@
 - author: Fernando de Ávila Silva
-  date: 2017-03-24
+  date: 2017-04-07
   semester: 2017s1
   affiliation: UFPR
   title: Global Hypoellipticity of Invariant Linear Operators on Smooth Manifolds
@@ -9,27 +9,5 @@
     the study of eigenvalues/eigenvectors of matrices with special structure,
     which is also Numerical Linear Algebra matter. Therefore, this talk is an
     attempt to bring together people from different areas and create a chance for
-    we help each other!
+    we help each other.
 
-- author: Lucas Seiffert
-  date: 2017-03-31
-  semester: 2017s1
-  affiliation: IC - Matemática
-  title: Stability issues in numerical methods for a fluid-structure interaction problem
-  abstract: >
-    In this seminar I shall present ideas and results from the article [1]
-    regarding a simplified 2-dimensional fluid-structure interaction problem.
-    We will consider a fluid (Euler equations) in a rectangular domain coupled
-    with  generalized springs on the horizontal boundaries. Three possible
-    algorithms for the solution of the problem will be shown  and their
-    stability will be analyzed by the introduction of a linear operator called
-    "added-mass".
-    [1] Causin, P.; Gerbeau, J.-F.; Nobile, F. Added-mass effect in the design of partitioned algorithms 
-    for fluid-structure  problems. [Research Report] RR-5084, INRIA. 2004.
-
-- author: Adriano Verdério
-  date: 2017-04-07
-  semester: 2017s1
-  affiliation: UTFPR
-  title: "Construction of quadratic models for derivative-free trust-region algorithms: polynomial interpolation
-  versus support vector regression."
