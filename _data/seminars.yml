@@ -1,18 +1,3 @@
-- author: Geovani N. G.
-  date: 2017-03-17
-  semester: 2017s1
-  affiliation: UFPR
-  title: Regularized Newton Methods for minimizing functions with Hölder continuous Hessians
-  abstract: >
-    In this paper, we study the regularized second-order methods for
-    unconstrained minimization of a twice-differentiable (convex or nonconvex)
-    objective function. For the current function, these methods automatically
-    achieve the best possible global complexity estimates among different
-    Hölder classes containing the Hessian of the objective. We show that such
-    methods for functional residual and for the norm of the gradient must be
-    different. For development of the latter methods, we introduced two new
-    line-search acceptance criteria, which can be seen as generalizations of
-    the Armijo condition.
 
 - author: Fernando de Ávila Silva
   date: 2017-03-24
