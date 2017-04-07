@@ -4,7 +4,6 @@ title: Archive
 permalink: /archive/
 years:
   - "2017"
-  - "2016"
 ---
 
 <div class="archive">
