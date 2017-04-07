@@ -74,4 +74,14 @@
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
+  - fullname: Roberto Ribeiro
+  key: robertoribeiro
+  lattes: lattes.cnpq.br/0582455188729134
+  email:
+    user: robertoribeiro
+    dom: ufpr.br
+  rgate: Roberto_Ribeiro
+  orcid: fazer
+  rank: Assistant
+  research: ["a", "a", "b", "c", "d"]
   
