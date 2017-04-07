@@ -43,13 +43,17 @@
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
-  - fullname: Jurandir Ceccon
-  key: jurandirceccon
-  rank: Assistant
-  lattes: lattes.cnpq.br/1725073228922583
+  - fullname: Cleber de Medeira
+  key: fernandoavila
+  lattes: http://lattes.cnpq.br/7722952325100580
+  site: http://people.ufpr.br/~fernando.avila
   email:
-    user: ceccon
+    user: fernando.avila
     dom: ufpr.br
-  research: ["a", "a", "a"]
+  rgate: Fernando_Avila
+  orcid: fazer
+  rank: Assistant
+  research: ["a", "a", "b", "c", "d"]
+
   
   
