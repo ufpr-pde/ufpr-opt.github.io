@@ -43,7 +43,7 @@
   rank: Assistant
   research: ["a", "a", "b", "c", "d"]
   
-  - fullname: Cleber de Medeira
+- fullname: Fernando de Ávila Silva
   key: fernandoavila
   lattes: http://lattes.cnpq.br/7722952325100580
   site: http://people.ufpr.br/~fernando.avila
@@ -53,7 +53,4 @@
   rgate: Fernando_Avila
   orcid: fazer
   rank: Assistant
-  research: ["a", "a", "b", "c", "d"]
-
-  
-  
+  research: ["a", "a", "b", "c", "d"]  
