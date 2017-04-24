@@ -10,7 +10,7 @@ semesters:
 
 <h2> Analysis and PDE  </h2>
 
-This semester the seminars will take place on the oficce 300, at 11h00,
+This semester the seminars will take place on the seminar room 300, at 11h00,
 Fridays.
 
 Older seminars:
