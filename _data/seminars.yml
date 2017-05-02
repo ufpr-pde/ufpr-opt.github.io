@@ -1,4 +1,4 @@
-- author: Fernando - UFPR
+- author: Fernando Ávila- UFPR
   date: 2017-04-28
   semester: 2017s1
   affiliation: 
@@ -7,13 +7,16 @@
    In this talk we introduce the Gevrey spaces by analyzing the solutions of some PDE's. 
    The main tool in our approach is the use of Fourier coefficients of smooth functions and distributions.  
 
-- author: Ailin
+- author: Ailin Ruiz
   date: 2017-05-05
   semester: 2017s1
   affiliation: UFPR 
-  title: Title 
+  title: Higher order Internal Wave Models
   abstract: >
-    In this talk.
+    From a higher order strongly nonlinear model for the evolution of internal waves at intermediate depth, we obtained a 
+    weakly nonlinear system similar to a Boussinesq system for surface gravity waves. The main difference between these systems 
+    is the presence of a dispersive term involving a Hilbert Transform on the strip, which is a nonlocal singular integral operator. 
+    Results concerning local well-posedness, conservation laws and some travelling wave solutions are discussed.
 
 - author: Willian - PPGMA
   date: 2017-05-12
