@@ -48,7 +48,15 @@ Older seminars:
   <span> {{ pres.affiliation }} </span><br>
 {% if pres.title %}
   <p>
-  <span><em> {{ pres.title }} </em></span><br>
+  <span><em> 
+  {% if pres.download %}
+  <a href="{{site.baseurl}}/seminar-slides/{{pres.download}}">
+  {{ pres.title }}
+  </a>
+  {% else %}
+  {{ pres.title }}
+  {% endif %}
+  </em></span><br>
     {% if pres.abstract %}
   <small>{{ pres.abstract }}</small><br>
     {% endif %}
