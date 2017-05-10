@@ -19,13 +19,16 @@
     is the presence of a dispersive term involving a Hilbert Transform on the strip, which is a nonlocal singular integral operator. 
     Results concerning local well-posedness, conservation laws and some travelling wave solutions are discussed.
 
-- author: Willian - PPGMA
+- author: Willian Lesinhovski  - PPGMA
   date: 2017-05-12
   semester: 2017s1
   affiliation: 
-  title: Title
+  title: Análise de von Neumann de um modelo dispersivo de ondas internas
   abstract: >
-    In this talk.
+    Neste trabalho é realizado um estudo sobre a estabilidade de um esquema numérico para um sistema do tipo Boussinesq para ondas 
+    internas. Através da Análise de von Neumann obteve-se três condições suficientes para que o método numérico proposto para a 
+    versão linearizada do sistema seja estável. Tais condições foram corroboradas por experimentos computacionais e serviram de base
+    para a implementação de um esquema numérico para a versão fracamente não linear do sistema que também se mostrou estável nos testes.
     
 - author: Higidio
   date: 2017-05-19
