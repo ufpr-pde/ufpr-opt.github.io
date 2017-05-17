@@ -30,13 +30,18 @@
     versão linearizada do sistema seja estável. Tais condições foram corroboradas por experimentos computacionais e serviram de base
     para a implementação de um esquema numérico para a versão fracamente não linear do sistema que também se mostrou estável nos testes.
     
-- author: Higidio
+- author: Higidio P. Oquendo
   date: 2017-05-19
   semester: 2017s1
   affiliation: UFPR
-  title: Title
+  title: Existence of solutions and other properties for an internal wave model
   abstract: >
-    In this talk.
+    Abstract: We consider an internal wave model and we study the existence 
+    of solutions, smoothing properties and asymptotic stability. In this talk, we present some ideas to 
+    answer in some way these issues. 
+    
+    This talk will be presented in Portuguese.
+
 
 - author: Rafael - Pós-doc - UFPR
   date: 2017-05-26
