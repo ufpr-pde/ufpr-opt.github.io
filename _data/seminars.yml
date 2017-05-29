@@ -56,9 +56,17 @@
   date: 2017-06-02
   semester: 2017s1
   affiliation: UEM - Pós-Doc
-  title: Title
+  title: On the Asymptotic Behavior of Solutions of Doubly Nonlinear Equations with Large Parameters
   abstract: >
-    In this talk  
+    In this talk, we discuss the asymptotic behavior of solutions of a 
+    class of doubly nonlinear equations, as various parameters become large. 
+    This class of equations combines the nonlinearities of $p$-Laplace 
+    equations and equations of porous medium type. 
+    
+    In particular, we prove the convergence of solutions of a homogeneous 
+    Neumann problem associated to a doubly nonlinear reaction diffusion 
+    equation, as the diffusion coefficient goes to infinity. Moreover, we 
+    prove the upper semicontinuity of the associated global attractor.
     
 - author: Janaína 
   date: 2017-06-09
