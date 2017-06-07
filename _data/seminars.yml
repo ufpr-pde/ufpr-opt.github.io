@@ -72,9 +72,12 @@
   date: 2017-06-09
   semester: 2017s1
   affiliation: SEPT-UFPR
-  title: Title
+  title:  Propriedades de Boa  Colocação para a Equação ILWR e um Sistema de tipo BOUSSINESQ
   abstract: >
-    In this talk.
+    Neste seminário serão apresentados resultados já estabelecidos 
+    e em andamento sobre a boa colocação local e global para os problemas de Cauchy 
+    associados à equação de ondas longas intermediárias regularizada (ILWR) 
+    e a um sistema de tipo Boussinesq para ondas intermediárias.
     
 - author: Roberto Ribeiro
   date: 2017-06-23
