@@ -29,7 +29,8 @@
     internas. Através da Análise de von Neumann obteve-se três condições suficientes para que o método numérico proposto para a 
     versão linearizada do sistema seja estável. Tais condições foram corroboradas por experimentos computacionais e serviram de base
     para a implementação de um esquema numérico para a versão fracamente não linear do sistema que também se mostrou estável nos testes.
-    
+ download: willian-s1-2017.pdf
+ 
 - author: Higidio P. Oquendo
   date: 2017-05-19
   semester: 2017s1
