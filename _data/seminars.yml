@@ -83,9 +83,12 @@
   date: 2017-06-23
   semester: 2017s1
   affiliation: UFPR
-  title: Title
+  title: How to dive in a mathematical way?
   abstract: >
-    In this talk.
+    What  is the relation among  Partial Differential Equation,  Conformal Maps  and Diving? In this talk 
+    we are going to show how to use mathematical techniques to explore underwater. We are going to make 
+    a review of some  results  concern the flow structure beneath water waves and also present new preliminary 
+    results for particle trajectories  in the presence of a bottom topography.
     
 - author: Jurandir
   date: 2017-06-30
