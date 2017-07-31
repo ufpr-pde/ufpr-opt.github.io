@@ -102,5 +102,13 @@
   abstract: >
   
 
-
+- author: Fernando Ávila- UFPR
+  date: 2017-08-18
+  semester: 2017s2
+  affiliation: 
+  title: An introduction to Gevrey Spaces.
+  abstract: >
+   In this talk we introduce the Gevrey spaces by analyzing the solutions of some PDE's. 
+   The main tool in our approach is the use of Fourier coefficients of smooth functions and distributions.  
+  download: fernando-s1-2017.pdf
     
