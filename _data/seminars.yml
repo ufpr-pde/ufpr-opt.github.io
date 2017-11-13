@@ -157,14 +157,7 @@
   abstract: >
    In this talk.    
    
-   
-- author: Alexandre Kirilov
-  date: 2017-10-20
-  semester: 2017s2
-  affiliation: UFPR
-  title: ...
-  abstract: >
-   In this talk.   
+    
    
 - author: Guilherme Tyszka
   date: 2017-10-27
@@ -175,13 +168,16 @@
     Neste seminário discutiremos a estabilidade de um semigrupo gerado por uma equação integro-diferencial.
  
    
-- author: Jurandir
-  date: 2017-11-10
+- author: André Vianna
+  date: 2017-11-17
   semester: 2017s2
-  affiliation: UFPR
-  title: ...
+  affiliation: PPGM
+  title: O modelo de Ericksen-Leslie penalizado.
   abstract: >
-   In this talk.    
+   Neste seminário será demonstrada a existência de solução para uma versão penalizada do modelo simplificado de
+   Ericksen-Leslie utilizando o método de Galerkin. Este modelo é um acoplamento entre dois sistemas de equações, 
+   sendo um deles o sistema de equações de Navier-Stokes, 
+   e é utilizado para estudar o escoamento de cristais líquidos nemáticos.   
    
 - author: Alexandre Arias
   date: 2017-11-24
