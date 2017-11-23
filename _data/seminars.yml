@@ -201,21 +201,6 @@
   affiliation: ICMC - USP
   title: Um pouco sobre Funções Analíticas Generalizadas
   abstract: >
-   Vamos apresentar uma descrição das soluções de equações da forma
-\begin{equation}\label{eq1}
-\frac{\partial u}{\partial\overline{z}}=a(z)u(z)+b(z)\overline{u}(z),
-\end{equation}
-sendo $a,b\in C^\alpha(\Omega)$, $0<\alpha<1$ e $\Omega$ aberto de $\mathbb{R}^2$.
-
-As soluções de (\ref{eq1}) são chamadas \textit{funções analíticas generalizadas} (também, \textit{funções pseudoanalíticas}); recorde que as soluções de $\partial u/\partial\overline{z}=0$ são funções analíticas.
-
-Também, vamos tratar de equações da forma
-\[
-\frac{\partial u}{\partial\overline{z}}=a(z)u(z)+b(z)\overline{u}(z)+f(z).
-\]
-
-As funções analíticas generalizadas foram introduzidas por Lipman Bers. Os resultados que serão apresentados aqui podem ser encontrados, por exemplo, no clássico livro ``Generalized Analytic Functions'' de Iliya N. Vekua.
-
-Uma breve relação com desboramentos em pesquisa recente será apresentada.
+   
    
    
