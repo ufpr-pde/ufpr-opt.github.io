@@ -183,9 +183,11 @@
   date: 2017-11-24
   semester: 2017s2
   affiliation: PPGM
-  title: ...
+  title: Regularidade Gevrey das Soluções de uma Certa Classe de Sistemas.
   abstract: >
-   In this talk.   
+   Neste seminário estudaremos uma breve introdução às funções Gevrey periódicas de ordem s. Também discutiremos a hipoeliticidade 
+   Gevrey global de uma certa classe de sistemas.  As principais ferramentas para tal estudo são as séries de Fourier, tanto a total 
+   quanto a parcial.   
    
 - author: Eduardo Henrique
   date: 2017-12-01
