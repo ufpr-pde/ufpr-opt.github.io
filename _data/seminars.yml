@@ -193,9 +193,10 @@
   date: 2017-12-01
   semester: 2017s2
   affiliation: PPGM
-  title: ...
+  title: Perturbações Gevrey para uma certa classe de operadores
   abstract: >
-   In this talk.  
+   Neste seminário faremos uma breve introdução às funções Gevrey periódicas de ordem s. Será discutido também qual o 
+   papel das perturbações  por funções Gevrey em operadores que já são globalmente G^s hipoelíticos.  
  
 - author: Paulo Dattori
   date: 2017-12-08
