@@ -9,6 +9,23 @@ permalink: /
 <div class="col-xs-12 col-lg-6">
 <div class="card container-fluid">
 
+  <h2> News </h2>
+
+  <ul class="fa-ul">
+  {% for post in site.posts %}
+  <li><i class="fa-li fa fa-newspaper-o"> </i>
+  <a href="{{ post.url }}">{{ post.title }}</a> &nbsp;
+    <span class="secondary"> {{ post.date | date: "%Y, %b %d" }} </span>
+  <p class="excerpt hidden-xs"> {{ post.excerpt | strip_html | truncatewords: 50 }}
+    ... <a href="{{ post.url }}">more</a>
+  </p>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
+</div> <!-- END OF NEWS -->
+
+
 
 <div class="col-xs-12 col-lg-6">
 {% assign now = site.time | date: "%Y-%m-%d" %}
