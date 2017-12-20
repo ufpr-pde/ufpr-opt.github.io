@@ -1,13 +1,9 @@
-
 ---
 layout: page
-title: Publitations
+title: Publications
 permalink: /publications/
-
-
 ---
 
-<h2> Analysis and PDE  </h2>
 
 List of publications
 
