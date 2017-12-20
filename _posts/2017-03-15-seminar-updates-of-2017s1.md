@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seminar Calendar of 2017, 1st semester
+title: Seminar Calendar of 2018, 1st semester
 ---
 
 The calendar for this semester's seminars is now available.
