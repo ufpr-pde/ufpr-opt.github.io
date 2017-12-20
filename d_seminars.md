@@ -5,7 +5,7 @@ permalink: /seminars/
 semesters:
   - 2017s1
   - 2017s2
-
+  - 2018s1
 
 ---
 
